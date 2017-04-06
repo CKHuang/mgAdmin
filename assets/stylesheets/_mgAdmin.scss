@@ -4,10 +4,12 @@
  */
 
 // Core variables
+@import "mgAdmin/config/theme";
 @import "mgAdmin/config/base";
 
-// Reset
+// Reset and theme
 @import "mgAdmin/base/reset";
+@import "mgAdmin/base/color";
 
 // Base unit
 @import "mgAdmin/base/text";

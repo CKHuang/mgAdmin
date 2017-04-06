@@ -1,0 +1,294 @@
+// backgroud color
+.bg-primary {
+
+	background-color: $theme-primary-color-base;
+	color: $theme-primary-color-lightest;
+
+	&.lt {
+		background-color: $theme-primary-color-light;
+	}
+
+	&.lter {
+		background-color: $theme-primary-color-lighter;
+	}
+
+	&.dk {
+		background-color: $theme-primary-color-dark;
+	}
+
+	&.dker {
+		background-color: $theme-primary-color-darker;
+	}
+
+	&.text-inverse {
+		color: $theme-primary-color-darkest;
+	}
+}
+
+
+.bg-info {
+
+	background-color: $theme-info-color-base;
+	color: $theme-info-color-lightest;
+
+	&.lt {
+		background-color: $theme-info-color-light;
+	}
+
+	&.lter {
+		background-color: $theme-info-color-lighter;
+	}
+
+	&.dk {
+		background-color: $theme-info-color-dark;
+	}
+
+	&.dker {
+		background-color: $theme-info-color-darker;
+	}
+
+	&.text-inverse {
+		color: $theme-info-color-darkest;
+	}
+}
+
+.bg-success {
+
+	background-color: $theme-success-color-base;
+	color: $theme-success-color-lightest;
+
+	&.lt {
+		background-color: $theme-success-color-light;
+	}
+
+	&.lter {
+		background-color: $theme-success-color-lighter;
+	}
+
+	&.dk {
+		background-color: $theme-success-color-dark;
+	}
+
+	&.dker {
+		background-color: $theme-success-color-darker;
+	}
+
+	&.text-inverse {
+		color: $theme-success-color-darkest;
+	}
+}
+
+
+.bg-warning {
+
+	background-color: $theme-warning-color-base;
+	color: $theme-warning-color-lightest;
+
+	&.lt {
+		background-color: $theme-warning-color-light;
+	}
+
+	&.lter {
+		background-color: $theme-warning-color-lighter;
+	}
+
+	&.dk {
+		background-color: $theme-warning-color-dark;
+	}
+
+	&.dker {
+		background-color: $theme-warning-color-darker;
+	}
+
+	&.text-inverse {
+		color: $theme-warning-color-darkest;
+	}
+}
+
+
+.bg-danger {
+
+	background-color: $theme-danger-color-base;
+	color: $theme-danger-color-lightest;
+
+	&.lt {
+		background-color: $theme-danger-color-light;
+	}
+
+	&.lter {
+		background-color: $theme-danger-color-lighter;
+	}
+
+	&.dk {
+		background-color: $theme-danger-color-dark;
+	}
+
+	&.dker {
+		background-color: $theme-danger-color-darker;
+	}
+
+	&.text-inverse {
+		color: $theme-danger-color-darkest;
+	}
+}
+
+
+.bg-dark {
+
+	background-color: $theme-dark-color-base;
+	color: $theme-dark-color-lightest;
+
+	&.lt {
+		background-color: $theme-dark-color-light;
+	}
+
+	&.lter {
+		background-color: $theme-dark-color-lighter;
+	}
+
+	&.dk {
+		background-color: $theme-dark-color-dark;
+	}
+
+	&.dker {
+		background-color: $theme-dark-color-darker;
+	}
+
+	&.text-inverse {
+		color: $theme-dark-color-darkest;
+	}
+}
+
+.bg-black {
+
+	background-color: $theme-black-color-base;
+	color: $theme-black-color-lightest;
+
+	&.lt {
+		background-color: $theme-black-color-light;
+	}
+
+	&.lter {
+		background-color: $theme-black-color-lighter;
+	}
+
+	&.dk {
+		background-color: $theme-black-color-dark;
+	}
+
+	&.dker {
+		background-color: $theme-black-color-darker;
+	}
+
+	&.text-inverse {
+		color: $theme-black-color-darkest;
+	}
+}
+
+
+.bg-light {
+
+	background-color: $theme-light-color-base;
+	color: $theme-light-color-lightest;
+
+	&.lt {
+		background-color: $theme-light-color-light;
+	}
+
+	&.lter {
+		background-color: $theme-light-color-lighter;
+	}
+
+	&.dk {
+		background-color: $theme-light-color-dark;
+	}
+
+	&.dker {
+		background-color: $theme-light-color-darker;
+	}
+
+	&.text-inverse {
+		color: $theme-light-color-darkest;
+	}
+}
+
+
+.bg-purple {
+
+	background-color: $theme-purple-color-base;
+	color: $theme-purple-color-lightest;
+
+	&.lt {
+		background-color: $theme-purple-color-light;
+	}
+
+	&.lter {
+		background-color: $theme-purple-color-lighter;
+	}
+
+	&.dk {
+		background-color: $theme-purple-color-dark;
+	}
+
+	&.dker {
+		background-color: $theme-purple-color-darker;
+	}
+
+	&.text-inverse {
+		color: $theme-purple-color-darkest;
+	}
+}
+
+
+.bg-yellow {
+
+	background-color: $theme-yellow-color-base;
+	color: $theme-yellow-color-lightest;
+
+	&.lt {
+		background-color: $theme-yellow-color-light;
+	}
+
+	&.lter {
+		background-color: $theme-yellow-color-lighter;
+	}
+
+	&.dk {
+		background-color: $theme-yellow-color-dark;
+	}
+
+	&.dker {
+		background-color: $theme-yellow-color-darker;
+	}
+
+	&.text-inverse {
+		color: $theme-yellow-color-darkest;
+	}
+}
+
+
+.bg-pink {
+
+	background-color: $theme-pink-color-base;
+	color: $theme-pink-color-lightest;
+
+	&.lt {
+		background-color: $theme-pink-color-light;
+	}
+
+	&.lter {
+		background-color: $theme-pink-color-lighter;
+	}
+
+	&.dk {
+		background-color: $theme-pink-color-dark;
+	}
+
+	&.dker {
+		background-color: $theme-pink-color-darker;
+	}
+
+	&.text-inverse {
+		color: $theme-pink-color-darkest;
+	}
+}

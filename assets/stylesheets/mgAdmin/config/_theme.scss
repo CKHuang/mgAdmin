@@ -1,0 +1,107 @@
+// theme default
+//## percent
+$theme-light 	: 15.5%;
+$theme-lighter  : 40.3%;
+$theme-lightest : 53.8%;
+$theme-dark 	: 15.5%;
+$theme-darker	: 30.3%;
+$theme-darkest  : 50.8%;
+
+//## primary
+$theme-primary-color-base: 			#155abb;
+$theme-primary-color-light: 		lighten($theme-primary-color-base, $theme-light) !default;
+$theme-primary-color-lighter: 		lighten($theme-primary-color-base, $theme-lighter) !default;
+$theme-primary-color-lightest: 		lighten($theme-primary-color-base, $theme-lightest) !default;
+$theme-primary-color-dark: 			darken($theme-primary-color-base, $theme-dark) !default;
+$theme-primary-color-darker: 		darken($theme-primary-color-base, $theme-darker) !default;
+$theme-primary-color-darkest: 		darken($theme-primary-color-base, $theme-darkest) !default;
+
+//## info
+$theme-info-color-base: 			#129CD2;
+$theme-info-color-light: 			lighten($theme-info-color-base, $theme-light) !default;
+$theme-info-color-lighter: 			lighten($theme-info-color-base, $theme-lighter) !default;
+$theme-info-color-lightest: 		lighten($theme-info-color-base, $theme-lightest) !default;
+$theme-info-color-dark: 			darken($theme-info-color-base, $theme-dark) !default;
+$theme-info-color-darker: 			darken($theme-info-color-base, $theme-darker) !default;
+$theme-info-color-darkest: 			darken($theme-info-color-base, $theme-darkest) !default;
+
+//## success
+$theme-success-color-base: 			#4bb622;
+$theme-success-color-light: 		lighten($theme-success-color-base, $theme-light) !default;
+$theme-success-color-lighter: 		lighten($theme-success-color-base, $theme-lighter) !default;
+$theme-success-color-lightest: 		lighten($theme-success-color-base, $theme-lightest) !default;
+$theme-success-color-dark: 			darken($theme-success-color-base, $theme-dark) !default;
+$theme-success-color-darker: 		darken($theme-success-color-base, $theme-darker) !default;
+$theme-success-color-darkest: 		darken($theme-success-color-base, $theme-darkest) !default;
+
+//## warning
+$theme-warning-color-base: 			#f88311;
+$theme-warning-color-light: 		lighten($theme-warning-color-base, $theme-light) !default;
+$theme-warning-color-lighter: 		lighten($theme-warning-color-base, $theme-lighter) !default;
+$theme-warning-color-lightest: 		lighten($theme-warning-color-base, $theme-lightest) !default;
+$theme-warning-color-dark: 			darken($theme-warning-color-base, $theme-dark) !default;
+$theme-warning-color-darker: 		darken($theme-warning-color-base, $theme-darker) !default;
+$theme-warning-color-darkest: 		darken($theme-warning-color-base, $theme-darkest) !default;
+
+//## danger
+$theme-danger-color-base: 			#e11144;
+$theme-danger-color-light: 			lighten($theme-danger-color-base, $theme-light) !default;
+$theme-danger-color-lighter: 		lighten($theme-danger-color-base, $theme-lighter) !default;
+$theme-danger-color-lightest: 		lighten($theme-danger-color-base, $theme-lightest) !default;
+$theme-danger-color-dark: 			darken($theme-danger-color-base, $theme-dark) !default;
+$theme-danger-color-darker: 		darken($theme-danger-color-base, $theme-darker) !default;
+$theme-danger-color-darkest: 		darken($theme-danger-color-base, $theme-darkest) !default;
+
+//## light
+$theme-light-color-base: 			#f1f2f3;
+$theme-light-color-light: 			lighten($theme-light-color-base, $theme-light) !default;
+$theme-light-color-lighter: 		lighten($theme-light-color-base, $theme-lighter) !default;
+$theme-light-color-lightest: 		lighten($theme-light-color-base, $theme-lightest) !default;
+$theme-light-color-dark: 			darken($theme-light-color-base, $theme-dark) !default;
+$theme-light-color-darker: 			darken($theme-light-color-base, $theme-darker) !default;
+$theme-light-color-darkest: 		darken($theme-light-color-base, $theme-darkest) !default;
+
+//## dark
+$theme-dark-color-base: 			#202a3a;
+$theme-dark-color-light: 			lighten($theme-dark-color-base, $theme-light) !default;
+$theme-dark-color-lighter: 			lighten($theme-dark-color-base, $theme-lighter) !default;
+$theme-dark-color-lightest: 		lighten($theme-dark-color-base, $theme-lightest) !default;
+$theme-dark-color-dark: 			darken($theme-dark-color-base, $theme-dark) !default;
+$theme-dark-color-darker: 			darken($theme-dark-color-base, $theme-darker) !default;
+$theme-dark-color-darkest: 			darken($theme-dark-color-base, $theme-darkest) !default;
+
+//## black
+$theme-black-color-base: 			#282836;
+$theme-black-color-light: 			lighten($theme-black-color-base, $theme-light) !default;
+$theme-black-color-lighter: 		lighten($theme-black-color-base, $theme-lighter) !default;
+$theme-black-color-lightest: 		lighten($theme-black-color-base, $theme-lightest) !default;
+$theme-black-color-dark: 			darken($theme-black-color-base, $theme-dark) !default;
+$theme-black-color-darker: 			darken($theme-black-color-base, $theme-darker) !default;
+$theme-black-color-darkest: 		darken($theme-black-color-base, $theme-darkest) !default;
+
+//## purple
+$theme-purple-color-base: 			#7E34D8;
+$theme-purple-color-light: 			lighten($theme-purple-color-base, $theme-light) !default;
+$theme-purple-color-lighter: 		lighten($theme-purple-color-base, $theme-lighter) !default;
+$theme-purple-color-lightest: 		lighten($theme-purple-color-base, $theme-lightest) !default;
+$theme-purple-color-dark: 			darken($theme-purple-color-base, $theme-dark) !default;
+$theme-purple-color-darker: 		darken($theme-purple-color-base, $theme-darker) !default;
+$theme-purple-color-darkest: 		darken($theme-purple-color-base, $theme-darkest) !default;
+
+//## yellow
+$theme-yellow-color-base: 			#F3F302;
+$theme-yellow-color-light: 			lighten($theme-yellow-color-base, $theme-light) !default;
+$theme-yellow-color-lighter: 		lighten($theme-yellow-color-base, $theme-lighter) !default;
+$theme-yellow-color-lightest: 		lighten($theme-yellow-color-base, $theme-lightest) !default;
+$theme-yellow-color-dark: 			darken($theme-yellow-color-base, $theme-dark) !default;
+$theme-yellow-color-darker: 		darken($theme-yellow-color-base, $theme-darker) !default;
+$theme-yellow-color-darkest: 		darken($theme-yellow-color-base, $theme-darkest) !default;
+
+//## pink
+$theme-pink-color-base: 			#c6538c;
+$theme-pink-color-light: 			lighten($theme-pink-color-base, $theme-light) !default;
+$theme-pink-color-lighter: 			lighten($theme-pink-color-base, $theme-lighter) !default;
+$theme-pink-color-lightest: 		lighten($theme-pink-color-base, $theme-lightest) !default;
+$theme-pink-color-dark: 			darken($theme-pink-color-base, $theme-dark) !default;
+$theme-pink-color-darker: 			darken($theme-pink-color-base, $theme-darker) !default;
+$theme-pink-color-darkest: 			darken($theme-pink-color-base, $theme-darkest) !default;
