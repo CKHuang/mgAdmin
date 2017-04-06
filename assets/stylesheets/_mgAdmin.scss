@@ -4,6 +4,19 @@
  */
 
 // Core variables
-@import "mgAdmin/variables";
+@import "mgAdmin/config/base";
 
 // Reset
+@import "mgAdmin/base/reset";
+
+// Base unit
+@import "mgAdmin/base/text";
+@import "mgAdmin/base/space";
+@import "mgAdmin/base/input";
+@import "mgAdmin/base/radio";
+@import "mgAdmin/base/checkbox";
+@import "mgAdmin/base/select";
+@import "mgAdmin/base/button";
+
+// layout
+@import "mgAdmin/layout/app";

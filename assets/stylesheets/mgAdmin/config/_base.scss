@@ -1,0 +1,52 @@
+//== variables
+//## Font family
+$font-family-sans-serif : "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+//## color
+$gray-base: 	#000 !default;
+$gray-dark: 	lighten($gray-base, 20%) !default; //#333;
+$gray-darker: 	lighten($gray-base, 13.5%) !default; //#222;
+$gray: 			lighten($gray-base, 33.5%) !default; //#555;
+$gray-light: 	lighten($gray-base, 46.7%) !default; //#777;
+$gray-lighter: 	lighten($gray-base, 93.5%) !default; //#eee;
+
+$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+//## font size
+$font-size-base: 		14px !default;
+$font-size-large: 		ceil(($font-size-base * 1.25)) !default;
+$font-size-small: 		ceil(($font-size-base * 0.85)) !default;
+$font-size-h1: 			floor(($font-size-base * 2.6)) !default; // ~36
+$font-size-h2: 			floor(($font-size-base * 2.15 )) !default;
+$font-size-h3: 			ceil(($font-size-base * 1.7)) !default;
+$font-size-h4:			ceil(($font-size-base * 1.25)) !default;
+$font-size-h5:			$font-size-base !default;
+$font-size-h6: 			ceil(($font-size-base * 0.85)) !default; // ~12px
+
+
+//== base Some global style
+//## font
+$base-font-family: 				$font-family-sans-serif !default;
+$base-font-size-normal: 		14px !default;
+$base-font-size-large:			ceil(($base-font-size-normal * 1.25)) !default;
+$base-font-size-small: 			ceil(($base-font-size-normal * 0.85)) !default;
+$base-font-color: 	 			$gray-dark !default;
+//## body
+$base-body-bg-color:			#fff !default;
+//## link
+$base-link-color: 				$brand-primary !default;
+$base-link-hover-color: 		darken($base-link-color, 15%) !default;
+$base-link-hover-decoration: 	underline !default;
+
+//== text
+//## headings
+$base-headings-font-family:		inherit !default;
+$base-headings-font-weight: 	500 !default;
+$base-headings-line-height: 	1.05 !default;
+$base-headings-color: 			inherit !default;
+$base-headings-small-color: 	$gray-light !default;
+$base-text-muted: 				$gray-light !default;
+
