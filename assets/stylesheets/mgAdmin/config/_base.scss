@@ -33,7 +33,7 @@ $line-height-computed:    floor(($font-size-base * $line-height-base)) !default;
 
 //## size
 $navbar-height: 	52px !default;
-$nav-height:    	$navbar-height - 8;
+$nav-height:    	$navbar-height + 2;
 
 //## screen size
 $screen-xs: 		480px !default;
@@ -76,7 +76,7 @@ $base-headings-font-weight: 	500 !default;
 $base-headings-line-height: 	1.05 !default;
 $base-headings-color: 			inherit !default;
 $base-headings-small-color: 	$gray-light !default;
-$base-headings-padding: 		10px;
+$base-headings-padding: 		15px;
 $base-text-muted: 				$gray-light !default;
 
 //== navbar
@@ -89,5 +89,5 @@ $base-navsub-height:    $nav-height - 2;
 $base-app-header-height: 		$navbar-height;
 $base-app-aside-width: 			230px !default;
 $base-app-aside-body-bottom: 	50px !default;
-$base-app-title-height: 		45px !default;
+$base-app-title-height: 		55px !default;
 

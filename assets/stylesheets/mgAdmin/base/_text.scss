@@ -15,6 +15,7 @@ h1,h2,h3,h4,h5,h6,
 		font-weight: normal;
 		line-height: 1;
 		color: $base-headings-small-color;
+		margin-left: $base-spacing-xs;
 	}
 }
 
@@ -63,4 +64,43 @@ small,
 
 .text-muted {
 	color: $base-text-muted;
+}
+.text-dark {
+	color: $gray-dark;
+}
+.text-darker {
+	color: $gray-darker;
+}
+.text-normal {
+	color: $gray;
+}
+.text-primary {
+	color: $theme-primary-color-base;
+}
+.text-info {
+	color: $theme-info-color-base;
+}
+.text-warning {
+	color: $theme-warning-color-base;
+}
+.text-danger {
+	color: $theme-danger-color-base;
+}
+.text-light {
+	color: $theme-light-color-base;
+}
+.text-black {
+	color: $theme-black-color-base;
+}
+.text-purple {
+	color: $theme-purple-color-base;
+}
+.text-yellow {
+	color: $theme-yellow-color-base;
+}
+.text-success {
+	color :$theme-success-color-base;
+}
+.text-pink {
+	color: $theme-pink-color-base;
 }
