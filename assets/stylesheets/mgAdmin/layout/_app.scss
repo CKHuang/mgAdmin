@@ -5,11 +5,46 @@
 	height: auto;
 	min-height: 100%;
 
+	//== header
 	.app-header {
 		padding: 0;
 		margin: 0;
 		position: relative;
 		border-radius: 0;
+		z-index: 101;
 		min-height: $base-app-header-height;
+	}
+
+	//== aside
+	.app-aside {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		z-index: 100;
+
+		.app-aside-inner {
+			position: absolute !important;
+			top: $base-navbar-height;
+			bottom: 0;
+			width: 100%;
+			@include box-sizing(border-box);
+
+			.app-aside-body {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				bottom: $base-app-aside-body-bottom;
+				overflow-y: auto;
+			}
+		}
+	}
+}
+
+// shi pei
+@media (min-width:$screen-sm) {
+
+	.app-aside {
+		width: $base-app-aside-width;
 	}
 }

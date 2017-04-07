@@ -1,0 +1,208 @@
+.navbar,.navbar-header {
+	position: relative;
+	min-height: $base-navbar-height;
+
+	.navbar-nav {
+		margin:0;
+		float: left;
+	}
+
+	.navbar-nav>li {
+		float: left;
+		position: relative;
+		display: block;
+		float: left;
+	}
+
+	.navbar-nav>li>a {
+		display: block;
+		line-height: $line-height-computed;
+		padding: ( $base-navbar-height - $line-height-computed ) / 2 10px ;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+
+
+//==color
+.bg-primary {
+
+	.navbar-nav li>a {
+		color: $theme-primary-color-lightest;
+
+		&:hover {
+			background-color: $theme-primary-color-light;
+		}
+
+		&.active {
+			background-color: $theme-primary-color-dark;
+			cursor: default;
+		}
+	}
+}
+
+.bg-info {
+
+	.navbar-nav li>a {
+		color: $theme-info-color-lightest;
+
+		&:hover {
+			background-color: $theme-info-color-light;
+		}
+
+		&.active {
+			background-color: $theme-info-color-dark;
+			cursor: default;
+		}
+	}
+}
+
+.bg-success {
+
+	.navbar-nav li>a {
+		color: $theme-success-color-lightest;
+
+		&:hover {
+			background-color: $theme-success-color-light;
+		}
+
+		&.active {
+			background-color: $theme-success-color-dark;
+			cursor: default;
+		}
+	}
+}
+
+.bg-warning {
+
+	.navbar-nav li>a {
+		color: $theme-warning-color-lightest;
+
+		&:hover {
+			background-color: $theme-warning-color-light;
+		}
+
+		&.active {
+			background-color: $theme-warning-color-dark;
+			cursor: default;
+		}
+	}
+}
+
+.bg-danger {
+
+	.navbar-nav li>a {
+		color: $theme-danger-color-lightest;
+
+		&:hover {
+			background-color: $theme-danger-color-light;
+		}
+
+		&.active {
+			background-color: $theme-danger-color-dark;
+			cursor: default;
+		}
+	}
+}
+
+.bg-black {
+
+	.navbar-nav li>a {
+		color: $theme-black-color-lightest;
+
+		&:hover {
+			background-color: $theme-black-color-light;
+		}
+
+		&.active {
+			background-color: $theme-black-color-dark;
+			cursor: default;
+		}
+	}
+}
+
+
+.bg-dark {
+
+	.navbar-nav li>a {
+		color: $theme-dark-color-lightest;
+
+		&:hover {
+			background-color: $theme-dark-color-light;
+		}
+
+		&.active {
+			background-color: $theme-dark-color-dark;
+			cursor: default;
+		}
+	}
+}
+
+.bg-light {
+
+	.navbar-nav li>a {
+		color: $theme-light-color-lightest;
+
+		&:hover {
+			background-color: $theme-light-color-light;
+		}
+
+		&.active {
+			background-color: $theme-light-color-dark;
+			cursor: default;
+		}
+	}
+}
+
+.bg-purple {
+
+	.navbar-nav li>a {
+		color: $theme-purple-color-lightest;
+
+		&:hover {
+			background-color: $theme-purple-color-light;
+		}
+
+		&.active {
+			background-color: $theme-purple-color-dark;
+			cursor: default;
+		}
+	}
+}
+
+.bg-yellow {
+
+	.navbar-nav li>a {
+		color: $theme-yellow-color-lightest;
+
+
+		&:hover {
+			background-color: $theme-yellow-color-light;
+		}
+
+		&.active {
+			background-color: $theme-yellow-color-dark;
+			cursor: default;
+		}
+	}
+}
+
+.bg-pink {
+
+	.navbar-nav li>a {
+		color: $theme-pink-color-lightest;
+
+		
+		&:hover {
+			background-color: $theme-pink-color-light;
+		}
+
+		&.active {
+			background-color: $theme-pink-color-dark;
+			cursor: default;
+		}
+	}
+}

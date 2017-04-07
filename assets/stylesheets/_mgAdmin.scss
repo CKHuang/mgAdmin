@@ -8,6 +8,7 @@
 @import "mgAdmin/config/base";
 
 // Reset and theme
+@import "mgAdmin/base/mixins";
 @import "mgAdmin/base/reset";
 @import "mgAdmin/base/color";
 
@@ -19,6 +20,8 @@
 @import "mgAdmin/base/checkbox";
 @import "mgAdmin/base/select";
 @import "mgAdmin/base/button";
+@import "mgAdmin/base/navbar";
+@import "mgAdmin/base/nav";
 
 // layout
 @import "mgAdmin/layout/app";

@@ -9,7 +9,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica Neue, Helvetica, Arial, Lantinghei SC, Hiragino Sans GB, Microsoft Yahei, sans-serif;
   font-size: 14px;
   color: #333333;
   background-color: #fff; }
@@ -37,6 +37,10 @@ textarea {
   font-size: inherit;
   line-height: inherit; }
 
+ul, li {
+  margin: 0;
+  padding: 0; }
+
 audio,
 canvas,
 progress,
@@ -50,8 +54,7 @@ a {
   background-color: transparent;
   outline: 0; }
   a:hover, a:focus {
-    color: #0d3976;
-    text-decoration: underline; }
+    color: #0d3976; }
 
 b,
 strong {
@@ -219,6 +222,8 @@ th {
     background-color: #063244; }
   .bg-info.text-inverse {
     color: black; }
+  .bg-info .navbar-nav li > a {
+    color: #f8fdfe; }
 
 .bg-success {
   background-color: #4bb622;
@@ -233,6 +238,8 @@ th {
     background-color: #15340a; }
   .bg-success.text-inverse {
     color: black; }
+  .bg-success .navbar-nav li > a {
+    color: #f2fcee; }
 
 .bg-warning {
   background-color: #f88311;
@@ -247,6 +254,8 @@ th {
     background-color: #6b3703; }
   .bg-warning.text-inverse {
     color: #060300; }
+  .bg-warning .navbar-nav li > a {
+    color: white; }
 
 .bg-danger {
   background-color: #e11144;
@@ -261,6 +270,8 @@ th {
     background-color: #510619; }
   .bg-danger.text-inverse {
     color: black; }
+  .bg-danger .navbar-nav li > a {
+    color: white; }
 
 .bg-dark {
   background-color: #202a3a;
@@ -275,6 +286,8 @@ th {
     background-color: black; }
   .bg-dark.text-inverse {
     color: black; }
+  .bg-dark .navbar-nav li > a {
+    color: #a1b1cb; }
 
 .bg-black {
   background-color: #282836;
@@ -289,6 +302,8 @@ th {
     background-color: black; }
   .bg-black.text-inverse {
     color: black; }
+  .bg-black .navbar-nav li > a {
+    color: #aeaec3; }
 
 .bg-light {
   background-color: #f1f2f3;
@@ -303,6 +318,8 @@ th {
     background-color: #9ea5ac; }
   .bg-light.text-inverse {
     color: #687079; }
+  .bg-light .navbar-nav li > a {
+    color: white; }
 
 .bg-purple {
   background-color: #7E34D8;
@@ -317,6 +334,8 @@ th {
     background-color: #35125f; }
   .bg-purple.text-inverse {
     color: #040107; }
+  .bg-purple .navbar-nav li > a {
+    color: white; }
 
 .bg-yellow {
   background-color: #F3F302;
@@ -331,6 +350,8 @@ th {
     background-color: #5a5a01; }
   .bg-yellow.text-inverse {
     color: black; }
+  .bg-yellow .navbar-nav li > a {
+    color: white; }
 
 .bg-pink {
   background-color: #c6538c;
@@ -345,6 +366,8 @@ th {
     background-color: #5f1f3f; }
   .bg-pink.text-inverse {
     color: #10050b; }
+  .bg-pink .navbar-nav li > a {
+    color: white; }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -435,6 +458,213 @@ small,
 .text-muted {
   color: #777777; }
 
+.navbar, .navbar-header {
+  position: relative;
+  min-height: 52px; }
+  .navbar .navbar-nav, .navbar-header .navbar-nav {
+    margin: 0;
+    float: left; }
+  .navbar .navbar-nav > li, .navbar-header .navbar-nav > li {
+    float: left;
+    position: relative;
+    display: block;
+    float: left; }
+  .navbar .navbar-nav > li > a, .navbar-header .navbar-nav > li > a {
+    display: block;
+    line-height: 20px;
+    padding: 16px 10px; }
+    .navbar .navbar-nav > li > a:hover, .navbar-header .navbar-nav > li > a:hover {
+      text-decoration: none; }
+
+.bg-primary .navbar-nav li > a {
+  color: #e6effc; }
+  .bg-primary .navbar-nav li > a:hover {
+    background-color: #3781e8; }
+  .bg-primary .navbar-nav li > a.active {
+    background-color: #0d3874;
+    cursor: default; }
+
+.bg-info .navbar-nav li > a {
+  color: #f8fdfe; }
+  .bg-info .navbar-nav li > a:hover {
+    background-color: #44bfef; }
+  .bg-info .navbar-nav li > a.active {
+    background-color: #0c6689;
+    cursor: default; }
+
+.bg-success .navbar-nav li > a {
+  color: #f2fcee; }
+  .bg-success .navbar-nav li > a:hover {
+    background-color: #73dd4a; }
+  .bg-success .navbar-nav li > a.active {
+    background-color: #307316;
+    cursor: default; }
+
+.bg-warning .navbar-nav li > a {
+  color: white; }
+  .bg-warning .navbar-nav li > a:hover {
+    background-color: #faab5e; }
+  .bg-warning .navbar-nav li > a.active {
+    background-color: #b55c05;
+    cursor: default; }
+
+.bg-danger .navbar-nav li > a {
+  color: white; }
+  .bg-danger .navbar-nav li > a:hover {
+    background-color: #f24f77; }
+  .bg-danger .navbar-nav li > a.active {
+    background-color: #980b2e;
+    cursor: default; }
+
+.bg-black .navbar-nav li > a {
+  color: #aeaec3; }
+  .bg-black .navbar-nav li > a:hover {
+    background-color: #4a4a63; }
+  .bg-black .navbar-nav li > a.active {
+    background-color: #060609;
+    cursor: default; }
+
+.bg-dark .navbar-nav li > a {
+  color: #a1b1cb; }
+  .bg-dark .navbar-nav li > a:hover {
+    background-color: #3c4f6d; }
+  .bg-dark .navbar-nav li > a.active {
+    background-color: #040507;
+    cursor: default; }
+
+.bg-light .navbar-nav li > a {
+  color: white; }
+  .bg-light .navbar-nav li > a:hover {
+    background-color: white; }
+  .bg-light .navbar-nav li > a.active {
+    background-color: #c6cacf;
+    cursor: default; }
+
+.bg-purple .navbar-nav li > a {
+  color: white; }
+  .bg-purple .navbar-nav li > a:hover {
+    background-color: #a876e5; }
+  .bg-purple .navbar-nav li > a.active {
+    background-color: #581e9e;
+    cursor: default; }
+
+.bg-yellow .navbar-nav li > a {
+  color: white; }
+  .bg-yellow .navbar-nav li > a:hover {
+    background-color: #fdfd47; }
+  .bg-yellow .navbar-nav li > a.active {
+    background-color: #a5a501;
+    cursor: default; }
+
+.bg-pink .navbar-nav li > a {
+  color: white; }
+  .bg-pink .navbar-nav li > a:hover {
+    background-color: #da8eb4; }
+  .bg-pink .navbar-nav li > a.active {
+    background-color: #983265;
+    cursor: default; }
+
+.nav {
+  position: relative;
+  min-height: 52px; }
+  .nav > li {
+    position: relative;
+    display: block; }
+  .nav > li > a {
+    display: block;
+    line-height: 20px;
+    padding: 12px 10px; }
+    .nav > li > a:hover {
+      text-decoration: none; }
+
+.bg-primary .nav > li > a {
+  color: #e6effc; }
+  .bg-primary .nav > li > a:hover {
+    background-color: #3781e8; }
+.bg-primary .nav > li.active a {
+  background-color: #0d3874;
+  cursor: default; }
+
+.bg-info .nav > li > a {
+  color: #f8fdfe; }
+  .bg-info .nav > li > a:hover {
+    background-color: #44bfef; }
+  .bg-info .nav > li > a.active {
+    background-color: #0c6689;
+    cursor: default; }
+
+.bg-success .nav > li > a {
+  color: #f2fcee; }
+  .bg-success .nav > li > a:hover {
+    background-color: #73dd4a; }
+  .bg-success .nav > li > a.active {
+    background-color: #307316;
+    cursor: default; }
+
+.bg-warning .nav > li > a {
+  color: white; }
+  .bg-warning .nav > li > a:hover {
+    background-color: #faab5e; }
+  .bg-warning .nav > li > a.active {
+    background-color: #b55c05;
+    cursor: default; }
+
+.bg-danger .nav > li > a {
+  color: white; }
+  .bg-danger .nav > li > a:hover {
+    background-color: #f24f77; }
+  .bg-danger .nav > li > a.active {
+    background-color: #980b2e;
+    cursor: default; }
+
+.bg-black .nav > li > a {
+  color: #aeaec3; }
+  .bg-black .nav > li > a:hover {
+    background-color: #4a4a63; }
+  .bg-black .nav > li > a.active {
+    background-color: #060609;
+    cursor: default; }
+
+.bg-dark .nav > li > a {
+  color: #a1b1cb; }
+  .bg-dark .nav > li > a:hover {
+    background-color: #3c4f6d; }
+  .bg-dark .nav > li > a.active {
+    background-color: #040507;
+    cursor: default; }
+
+.bg-light .nav > li > a {
+  color: white; }
+  .bg-light .nav > li > a:hover {
+    background-color: white; }
+  .bg-light .nav > li > a.active {
+    background-color: #c6cacf;
+    cursor: default; }
+
+.bg-purple .nav > li > a {
+  color: white; }
+  .bg-purple .nav > li > a:hover {
+    background-color: #a876e5; }
+  .bg-purple .nav > li > a.active {
+    background-color: #581e9e;
+    cursor: default; }
+
+.bg-yellow .nav > li > a {
+  color: white; }
+  .bg-yellow .nav > li > a:hover {
+    background-color: #fdfd47; }
+  .bg-yellow .nav > li > a.active {
+    background-color: #a5a501;
+    cursor: default; }
+
+.bg-pink .nav > li > a {
+  color: white; }
+  .bg-pink .nav > li > a:hover {
+    background-color: #da8eb4; }
+  .bg-pink .nav > li > a.active {
+    background-color: #983265;
+    cursor: default; }
+
 .app {
   position: relative;
   width: 100%;
@@ -445,6 +675,31 @@ small,
     margin: 0;
     position: relative;
     border-radius: 0;
+    z-index: 101;
     min-height: 52px; }
+  .app .app-aside {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 100; }
+    .app .app-aside .app-aside-inner {
+      position: absolute !important;
+      top: 52px;
+      bottom: 0;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .app .app-aside .app-aside-inner .app-aside-body {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        bottom: 50px;
+        overflow-y: auto; }
+
+@media (min-width: 768px) {
+  .app-aside {
+    width: 230px; } }
 
 /*# sourceMappingURL=mgAdmin.css.map */

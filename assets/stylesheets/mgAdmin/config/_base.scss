@@ -1,6 +1,6 @@
 //== variables
 //## Font family
-$font-family-sans-serif : "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif : "Helvetica Neue",Helvetica Neue,Helvetica,Arial,Lantinghei SC,Hiragino Sans GB,Microsoft Yahei,sans-serif !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //## color
 $gray-base: 	#000 !default;
@@ -27,6 +27,26 @@ $font-size-h4:			ceil(($font-size-base * 1.25)) !default;
 $font-size-h5:			$font-size-base !default;
 $font-size-h6: 			ceil(($font-size-base * 0.85)) !default; // ~12px
 
+//## line height
+$line-height-base:        1.428571429 !default; // 20/14
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+//## size
+$navbar-height: 	52px !default;
+$nav-height:    	$navbar-height - 8;
+
+//## screen size
+$screen-xs: 		480px !default;
+$screen-xs-min: 	$screen-xs !default;
+$screen-phone: 		$screen-xs-min !default;
+$screen-sm: 		768px !default;
+$screen-sm-min: 	$screen-sm !default;
+$screen-md: 		992px !default;
+$screen-md-min: 	$screen-md !default;
+$screen-lg: 		1200px !default;
+$screen-lg-min: 	$screen-lg !default;
+
+
 
 //== base Some global style
 //## font
@@ -51,7 +71,13 @@ $base-headings-color: 			inherit !default;
 $base-headings-small-color: 	$gray-light !default;
 $base-text-muted: 				$gray-light !default;
 
+//== navbar
+$base-navbar-height : 	$navbar-height;
+$base-nav-height: 		$nav-height;
+
 //== layout
 //## app
-$base-app-header-height: 		52px !default;
+$base-app-header-height: 		$navbar-height;
+$base-app-aside-width: 			230px !default;
+$base-app-aside-body-bottom: 	50px !default;
 
