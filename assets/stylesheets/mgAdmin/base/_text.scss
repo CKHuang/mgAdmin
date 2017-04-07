@@ -7,6 +7,8 @@ h1,h2,h3,h4,h5,h6,
 	font-weight: $base-headings-font-weight;
 	line-height: $base-headings-line-height;
 	color: $base-headings-color;
+	margin: 0px;
+	padding: $base-headings-padding;
 
 	small,
 	.small {

@@ -1,4 +1,4 @@
-.nav,{
+.nav{
 	position: relative;
 	min-height: $base-navbar-height;
 
@@ -14,6 +14,21 @@
 
 		&:hover {
 			text-decoration: none;
+		}
+	}
+}
+
+
+.nav-sub {
+
+	&>li {
+		position: relative;
+		display: block;
+
+		&>a {
+			display: block;
+			line-height: $line-height-computed - 3;
+			padding: ( $base-navsub-height - $line-height-computed - 3 ) / 2 20px;
 		}
 	}
 }
@@ -49,8 +64,12 @@
 		&:hover {
 			background-color: $theme-info-color-light;
 		}
+	}
 
-		&.active {
+
+	.nav>li.active {
+
+		&>a {
 			background-color: $theme-info-color-dark;
 			cursor: default;
 		}
@@ -65,8 +84,11 @@
 		&:hover {
 			background-color: $theme-success-color-light;
 		}
+	}
 
-		&.active {
+	.nav>li.active {
+
+		&>a {
 			background-color: $theme-success-color-dark;
 			cursor: default;
 		}
@@ -81,8 +103,11 @@
 		&:hover {
 			background-color: $theme-warning-color-light;
 		}
+	}
 
-		&.active {
+	.nav>li.active {
+
+		&>a {
 			background-color: $theme-warning-color-dark;
 			cursor: default;
 		}
@@ -97,8 +122,11 @@
 		&:hover {
 			background-color: $theme-danger-color-light;
 		}
+	}
 
-		&.active {
+	.nav>li.active {
+
+		&>a {
 			background-color: $theme-danger-color-dark;
 			cursor: default;
 		}
@@ -113,28 +141,41 @@
 		&:hover {
 			background-color: $theme-black-color-light;
 		}
+	}
 
-		&.active {
+	.nav>li.active {
+
+		&>a {
 			background-color: $theme-black-color-dark;
 			cursor: default;
 		}
 	}
+
+
 }
 
 
 .bg-dark {
 
 	.nav>li>a {
+
 		color: $theme-dark-color-lightest;
 
 		&:hover {
 			background-color: $theme-dark-color-light;
 		}
+	}
 
-		&.active {
-			background-color: $theme-dark-color-dark;
+	.nav>li.active {
+
+		&>a {
+			background-color: $theme-dark-color-light;
 			cursor: default;
 		}
+	}
+
+	.nav-sub {
+		background-color: $theme-dark-color-darker;
 	}
 }
 
@@ -146,8 +187,11 @@
 		&:hover {
 			background-color: $theme-light-color-light;
 		}
+	}
 
-		&.active {
+	.nav>li.active {
+
+		&>a {
 			background-color: $theme-light-color-dark;
 			cursor: default;
 		}
@@ -162,8 +206,11 @@
 		&:hover {
 			background-color: $theme-purple-color-light;
 		}
+	}
 
-		&.active {
+	.nav>li.active {
+
+		&>a {
 			background-color: $theme-purple-color-dark;
 			cursor: default;
 		}
@@ -179,8 +226,11 @@
 		&:hover {
 			background-color: $theme-yellow-color-light;
 		}
+	}
 
-		&.active {
+	.nav>li.active {
+
+		&>a {
 			background-color: $theme-yellow-color-dark;
 			cursor: default;
 		}
@@ -196,8 +246,11 @@
 		&:hover {
 			background-color: $theme-pink-color-light;
 		}
+	}
 
-		&.active {
+	.nav>li.active {
+
+		&>a {
 			background-color: $theme-pink-color-dark;
 			cursor: default;
 		}

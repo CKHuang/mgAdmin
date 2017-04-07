@@ -197,113 +197,113 @@ th {
 
 .bg-primary {
   background-color: #155abb;
-  color: #e6effc; }
+  color: #b8d2f7; }
   .bg-primary.lt {
-    background-color: #3781e8; }
+    background-color: #2072e6; }
   .bg-primary.lter {
-    background-color: #a8c8f5; }
+    background-color: #7aabf0; }
   .bg-primary.dk {
-    background-color: #0d3874; }
+    background-color: #124ea2; }
   .bg-primary.dker {
-    background-color: #051730; }
+    background-color: #10438c; }
   .bg-primary.text-inverse {
-    color: black; }
+    color: #082145; }
 
 .bg-info {
   background-color: #129CD2;
-  color: #f8fdfe; }
+  color: #c9ecfa; }
   .bg-info.lt {
-    background-color: #44bfef; }
+    background-color: #2db7ed; }
   .bg-info.lter {
-    background-color: #b9e7f9; }
+    background-color: #8ad7f5; }
   .bg-info.dk {
-    background-color: #0c6689; }
+    background-color: #1089b8; }
   .bg-info.dker {
-    background-color: #063244; }
+    background-color: #0e78a2; }
   .bg-info.text-inverse {
-    color: black; }
+    color: #084259; }
   .bg-info .navbar-nav li > a {
-    color: #f8fdfe; }
+    color: #c9ecfa; }
 
 .bg-success {
   background-color: #4bb622;
-  color: #f2fcee; }
+  color: #d1f4c3; }
   .bg-success.lt {
-    background-color: #73dd4a; }
+    background-color: #62d934; }
   .bg-success.lter {
-    background-color: #c5f1b4; }
+    background-color: #a4e989; }
   .bg-success.dk {
-    background-color: #307316; }
+    background-color: #419e1e; }
   .bg-success.dker {
-    background-color: #15340a; }
+    background-color: #398a1a; }
   .bg-success.text-inverse {
-    color: black; }
+    color: #1d470d; }
   .bg-success .navbar-nav li > a {
-    color: #f2fcee; }
+    color: #d1f4c3; }
 
 .bg-warning {
   background-color: #f88311;
-  color: white; }
+  color: #fef4ea; }
   .bg-warning.lt {
-    background-color: #faab5e; }
+    background-color: #fa9e45; }
   .bg-warning.lter {
-    background-color: #feebd9; }
+    background-color: #fcd1a7; }
   .bg-warning.dk {
-    background-color: #b55c05; }
+    background-color: #e67507; }
   .bg-warning.dker {
-    background-color: #6b3703; }
+    background-color: #ce6906; }
   .bg-warning.text-inverse {
-    color: #060300; }
+    color: #824204; }
   .bg-warning .navbar-nav li > a {
-    color: white; }
+    color: #fef4ea; }
 
 .bg-danger {
   background-color: #e11144;
-  color: white; }
+  color: #fcd6df; }
   .bg-danger.lt {
-    background-color: #f24f77; }
+    background-color: #f03865; }
   .bg-danger.lter {
-    background-color: #fbc5d2; }
+    background-color: #f796ad; }
   .bg-danger.dk {
-    background-color: #980b2e; }
+    background-color: #c70f3c; }
   .bg-danger.dker {
-    background-color: #510619; }
+    background-color: #b00d35; }
   .bg-danger.text-inverse {
-    color: black; }
+    color: #67081f; }
   .bg-danger .navbar-nav li > a {
-    color: white; }
+    color: #fcd6df; }
 
 .bg-dark {
   background-color: #202a3a;
-  color: #a1b1cb; }
+  color: #8096b9; }
   .bg-dark.lt {
-    background-color: #3c4f6d; }
+    background-color: #33435d; }
   .bg-dark.lter {
-    background-color: #758db3; }
+    background-color: #57729e; }
   .bg-dark.dk {
-    background-color: #040507; }
+    background-color: #161d28; }
   .bg-dark.dker {
-    background-color: black; }
+    background-color: #0d1118; }
   .bg-dark.text-inverse {
     color: black; }
   .bg-dark .navbar-nav li > a {
-    color: #a1b1cb; }
+    color: #8096b9; }
 
 .bg-black {
   background-color: #282836;
-  color: #aeaec3; }
+  color: #9090ad; }
   .bg-black.lt {
-    background-color: #4a4a63; }
+    background-color: #3f3f55; }
   .bg-black.lter {
-    background-color: #8686a5; }
+    background-color: #6a6a8f; }
   .bg-black.dk {
-    background-color: #060609; }
+    background-color: #1c1c26; }
   .bg-black.dker {
-    background-color: black; }
+    background-color: #121218; }
   .bg-black.text-inverse {
     color: black; }
   .bg-black .navbar-nav li > a {
-    color: #aeaec3; }
+    color: #9090ad; }
 
 .bg-light {
   background-color: #f1f2f3;
@@ -313,68 +313,70 @@ th {
   .bg-light.lter {
     background-color: white; }
   .bg-light.dk {
-    background-color: #c6cacf; }
+    background-color: #e2e4e6; }
   .bg-light.dker {
-    background-color: #9ea5ac; }
+    background-color: #d5d8db; }
   .bg-light.text-inverse {
-    color: #687079; }
+    color: #aab0b6; }
   .bg-light .navbar-nav li > a {
     color: white; }
 
 .bg-purple {
   background-color: #7E34D8;
-  color: white; }
+  color: #f5effc; }
   .bg-purple.lt {
-    background-color: #a876e5; }
+    background-color: #9b61e1; }
   .bg-purple.lter {
-    background-color: #ece0f9; }
+    background-color: #d0b6f1; }
   .bg-purple.dk {
-    background-color: #581e9e; }
+    background-color: #7027c9; }
   .bg-purple.dker {
-    background-color: #35125f; }
+    background-color: #6523b5; }
   .bg-purple.text-inverse {
-    color: #040107; }
+    color: #401672; }
   .bg-purple .navbar-nav li > a {
-    color: white; }
+    color: #f5effc; }
 
 .bg-yellow {
   background-color: #F3F302;
-  color: white; }
+  color: #ffffd6; }
   .bg-yellow.lt {
-    background-color: #fdfd47; }
+    background-color: #fdfd2d; }
   .bg-yellow.lter {
-    background-color: #ffffc4; }
+    background-color: #fefe91; }
   .bg-yellow.dk {
-    background-color: #a5a501; }
+    background-color: #d7d702; }
   .bg-yellow.dker {
-    background-color: #5a5a01; }
+    background-color: #bfbf02; }
   .bg-yellow.text-inverse {
-    color: black; }
+    color: #707001; }
   .bg-yellow .navbar-nav li > a {
-    color: white; }
+    color: #ffffd6; }
 
 .bg-pink {
   background-color: #c6538c;
-  color: white; }
+  color: #fefbfc; }
   .bg-pink.lt {
-    background-color: #da8eb4; }
+    background-color: #d37ba7; }
   .bg-pink.lter {
-    background-color: #f9edf3; }
+    background-color: #ecc7da; }
   .bg-pink.dk {
-    background-color: #983265; }
+    background-color: #be3f7e; }
   .bg-pink.dker {
-    background-color: #5f1f3f; }
+    background-color: #ac3972; }
   .bg-pink.text-inverse {
-    color: #10050b; }
+    color: #70254a; }
   .bg-pink .navbar-nav li > a {
-    color: white; }
+    color: #fefbfc; }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.05;
-  color: inherit; }
+  color: inherit;
+  margin: 0px;
+  padding: 10px; }
   h1 small,
   h1 .small, h2 small,
   h2 .small, h3 small,
@@ -458,6 +460,122 @@ small,
 .text-muted {
   color: #777777; }
 
+.no-padding {
+  padding: 0 !important; }
+
+.no-padding-h {
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
+
+.no-padding-v {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important; }
+
+.p-xs {
+  padding: 5px; }
+
+.p-sm {
+  padding: 10px; }
+
+.p-nm {
+  padding: 15px; }
+
+.p-md {
+  padding: 20px; }
+
+.p-lg {
+  padding: 30px; }
+
+.p-h {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.p-h-xs {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.p-h-sm {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.p-h-lg {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.p-v {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.p-v-xs {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.p-v-sm {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.p-v-lg {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.no-margin {
+  margin: 0 !important; }
+
+.no-margin-h {
+  margin-right: 0 !important;
+  margin-left: 0 !important; }
+
+.no-margin-v {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important; }
+
+.m-xs {
+  margin: 5px; }
+
+.m-sm {
+  margin: 10px; }
+
+.m-nm {
+  margin: 15px; }
+
+.m-md {
+  margin: 20px; }
+
+.m-lg {
+  margin: 30px; }
+
+.m-h {
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.m-h-xs {
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.m-h-sm {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.m-h-lg {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.m-v {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.m-v-xs {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.m-v-sm {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.m-v-lg {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
 .navbar, .navbar-header {
   position: relative;
   min-height: 52px; }
@@ -477,59 +595,59 @@ small,
       text-decoration: none; }
 
 .bg-primary .navbar-nav li > a {
-  color: #e6effc; }
+  color: #b8d2f7; }
   .bg-primary .navbar-nav li > a:hover {
-    background-color: #3781e8; }
+    background-color: #2072e6; }
   .bg-primary .navbar-nav li > a.active {
-    background-color: #0d3874;
+    background-color: #124ea2;
     cursor: default; }
 
 .bg-info .navbar-nav li > a {
-  color: #f8fdfe; }
+  color: #c9ecfa; }
   .bg-info .navbar-nav li > a:hover {
-    background-color: #44bfef; }
+    background-color: #2db7ed; }
   .bg-info .navbar-nav li > a.active {
-    background-color: #0c6689;
+    background-color: #1089b8;
     cursor: default; }
 
 .bg-success .navbar-nav li > a {
-  color: #f2fcee; }
+  color: #d1f4c3; }
   .bg-success .navbar-nav li > a:hover {
-    background-color: #73dd4a; }
+    background-color: #62d934; }
   .bg-success .navbar-nav li > a.active {
-    background-color: #307316;
+    background-color: #419e1e;
     cursor: default; }
 
 .bg-warning .navbar-nav li > a {
-  color: white; }
+  color: #fef4ea; }
   .bg-warning .navbar-nav li > a:hover {
-    background-color: #faab5e; }
+    background-color: #fa9e45; }
   .bg-warning .navbar-nav li > a.active {
-    background-color: #b55c05;
+    background-color: #e67507;
     cursor: default; }
 
 .bg-danger .navbar-nav li > a {
-  color: white; }
+  color: #fcd6df; }
   .bg-danger .navbar-nav li > a:hover {
-    background-color: #f24f77; }
+    background-color: #f03865; }
   .bg-danger .navbar-nav li > a.active {
-    background-color: #980b2e;
+    background-color: #c70f3c;
     cursor: default; }
 
 .bg-black .navbar-nav li > a {
-  color: #aeaec3; }
+  color: #9090ad; }
   .bg-black .navbar-nav li > a:hover {
-    background-color: #4a4a63; }
+    background-color: #3f3f55; }
   .bg-black .navbar-nav li > a.active {
-    background-color: #060609;
+    background-color: #1c1c26;
     cursor: default; }
 
 .bg-dark .navbar-nav li > a {
-  color: #a1b1cb; }
+  color: #8096b9; }
   .bg-dark .navbar-nav li > a:hover {
-    background-color: #3c4f6d; }
+    background-color: #33435d; }
   .bg-dark .navbar-nav li > a.active {
-    background-color: #040507;
+    background-color: #161d28;
     cursor: default; }
 
 .bg-light .navbar-nav li > a {
@@ -537,31 +655,31 @@ small,
   .bg-light .navbar-nav li > a:hover {
     background-color: white; }
   .bg-light .navbar-nav li > a.active {
-    background-color: #c6cacf;
+    background-color: #e2e4e6;
     cursor: default; }
 
 .bg-purple .navbar-nav li > a {
-  color: white; }
+  color: #f5effc; }
   .bg-purple .navbar-nav li > a:hover {
-    background-color: #a876e5; }
+    background-color: #9b61e1; }
   .bg-purple .navbar-nav li > a.active {
-    background-color: #581e9e;
+    background-color: #7027c9;
     cursor: default; }
 
 .bg-yellow .navbar-nav li > a {
-  color: white; }
+  color: #ffffd6; }
   .bg-yellow .navbar-nav li > a:hover {
-    background-color: #fdfd47; }
+    background-color: #fdfd2d; }
   .bg-yellow .navbar-nav li > a.active {
-    background-color: #a5a501;
+    background-color: #d7d702;
     cursor: default; }
 
 .bg-pink .navbar-nav li > a {
-  color: white; }
+  color: #fefbfc; }
   .bg-pink .navbar-nav li > a:hover {
-    background-color: #da8eb4; }
+    background-color: #d37ba7; }
   .bg-pink .navbar-nav li > a.active {
-    background-color: #983265;
+    background-color: #be3f7e;
     cursor: default; }
 
 .nav {
@@ -577,99 +695,115 @@ small,
     .nav > li > a:hover {
       text-decoration: none; }
 
+.nav-sub > li {
+  position: relative;
+  display: block; }
+  .nav-sub > li > a {
+    display: block;
+    line-height: 17px;
+    padding: 9.5px 20px; }
+
 .bg-primary .nav > li > a {
-  color: #e6effc; }
+  color: #b8d2f7; }
   .bg-primary .nav > li > a:hover {
-    background-color: #3781e8; }
+    background-color: #2072e6; }
 .bg-primary .nav > li.active a {
-  background-color: #0d3874;
+  background-color: #124ea2;
   cursor: default; }
 
 .bg-info .nav > li > a {
-  color: #f8fdfe; }
+  color: #c9ecfa; }
   .bg-info .nav > li > a:hover {
-    background-color: #44bfef; }
-  .bg-info .nav > li > a.active {
-    background-color: #0c6689;
-    cursor: default; }
+    background-color: #2db7ed; }
+.bg-info .nav > li.active > a {
+  background-color: #1089b8;
+  cursor: default; }
 
 .bg-success .nav > li > a {
-  color: #f2fcee; }
+  color: #d1f4c3; }
   .bg-success .nav > li > a:hover {
-    background-color: #73dd4a; }
-  .bg-success .nav > li > a.active {
-    background-color: #307316;
-    cursor: default; }
+    background-color: #62d934; }
+.bg-success .nav > li.active > a {
+  background-color: #419e1e;
+  cursor: default; }
 
 .bg-warning .nav > li > a {
-  color: white; }
+  color: #fef4ea; }
   .bg-warning .nav > li > a:hover {
-    background-color: #faab5e; }
-  .bg-warning .nav > li > a.active {
-    background-color: #b55c05;
-    cursor: default; }
+    background-color: #fa9e45; }
+.bg-warning .nav > li.active > a {
+  background-color: #e67507;
+  cursor: default; }
 
 .bg-danger .nav > li > a {
-  color: white; }
+  color: #fcd6df; }
   .bg-danger .nav > li > a:hover {
-    background-color: #f24f77; }
-  .bg-danger .nav > li > a.active {
-    background-color: #980b2e;
-    cursor: default; }
+    background-color: #f03865; }
+.bg-danger .nav > li.active > a {
+  background-color: #c70f3c;
+  cursor: default; }
 
 .bg-black .nav > li > a {
-  color: #aeaec3; }
+  color: #9090ad; }
   .bg-black .nav > li > a:hover {
-    background-color: #4a4a63; }
-  .bg-black .nav > li > a.active {
-    background-color: #060609;
-    cursor: default; }
+    background-color: #3f3f55; }
+.bg-black .nav > li.active > a {
+  background-color: #1c1c26;
+  cursor: default; }
 
 .bg-dark .nav > li > a {
-  color: #a1b1cb; }
+  color: #8096b9; }
   .bg-dark .nav > li > a:hover {
-    background-color: #3c4f6d; }
-  .bg-dark .nav > li > a.active {
-    background-color: #040507;
-    cursor: default; }
+    background-color: #33435d; }
+.bg-dark .nav > li.active > a {
+  background-color: #33435d;
+  cursor: default; }
+.bg-dark .nav-sub {
+  background-color: #0d1118; }
 
 .bg-light .nav > li > a {
   color: white; }
   .bg-light .nav > li > a:hover {
     background-color: white; }
-  .bg-light .nav > li > a.active {
-    background-color: #c6cacf;
-    cursor: default; }
+.bg-light .nav > li.active > a {
+  background-color: #e2e4e6;
+  cursor: default; }
 
 .bg-purple .nav > li > a {
-  color: white; }
+  color: #f5effc; }
   .bg-purple .nav > li > a:hover {
-    background-color: #a876e5; }
-  .bg-purple .nav > li > a.active {
-    background-color: #581e9e;
-    cursor: default; }
+    background-color: #9b61e1; }
+.bg-purple .nav > li.active > a {
+  background-color: #7027c9;
+  cursor: default; }
 
 .bg-yellow .nav > li > a {
-  color: white; }
+  color: #ffffd6; }
   .bg-yellow .nav > li > a:hover {
-    background-color: #fdfd47; }
-  .bg-yellow .nav > li > a.active {
-    background-color: #a5a501;
-    cursor: default; }
+    background-color: #fdfd2d; }
+.bg-yellow .nav > li.active > a {
+  background-color: #d7d702;
+  cursor: default; }
 
 .bg-pink .nav > li > a {
-  color: white; }
+  color: #fefbfc; }
   .bg-pink .nav > li > a:hover {
-    background-color: #da8eb4; }
-  .bg-pink .nav > li > a.active {
-    background-color: #983265;
-    cursor: default; }
+    background-color: #d37ba7; }
+.bg-pink .nav > li.active > a {
+  background-color: #be3f7e;
+  cursor: default; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
 
 .app {
   position: relative;
   width: 100%;
-  height: auto;
-  min-height: 100%; }
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
   .app .app-header {
     padding: 0;
     margin: 0;
@@ -677,6 +811,9 @@ small,
     border-radius: 0;
     z-index: 101;
     min-height: 52px; }
+  .app .app-header-fixed {
+    position: fixed;
+    width: 100%; }
   .app .app-aside {
     position: fixed;
     top: 0;
@@ -697,9 +834,69 @@ small,
         width: 100%;
         bottom: 50px;
         overflow-y: auto; }
+    .app .app-aside .app-aside-footer {
+      position: absolute !important;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      right: 0;
+      height: 50px; }
+  .app .app-content {
+    height: 100%;
+    position: relative;
+    padding-top: 52px;
+    width: 100%;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .app .app-content:before, .app .app-content:after {
+      content: " ";
+      display: table; }
+    .app .app-content:after {
+      clear: both; }
+    .app .app-content .app-content-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background-color: #F6F7F8;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .app .app-content .app-content-inner:before, .app .app-content .app-content-inner:after {
+        content: " ";
+        display: table; }
+      .app .app-content .app-content-inner:after {
+        clear: both; }
+      .app .app-content .app-content-inner .app-content-title {
+        position: absolute;
+        top: 0px;
+        height: 45px;
+        width: 100%;
+        z-index: 10; }
+      .app .app-content .app-content-inner .app-content-article-fixed-scroll {
+        position: relative;
+        height: 100%;
+        overflow: hidden;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-top: 45px; }
+      .app .app-content .app-content-inner .app-content-article {
+        position: relative;
+        height: 100%;
+        overflow-y: auto; }
+        .app .app-content .app-content-inner .app-content-article:before, .app .app-content .app-content-inner .app-content-article:after {
+          content: " ";
+          display: table; }
+        .app .app-content .app-content-inner .app-content-article:after {
+          clear: both; }
 
 @media (min-width: 768px) {
   .app-aside {
-    width: 230px; } }
+    width: 230px; }
+
+  .app-content {
+    padding-left: 230px; } }
 
 /*# sourceMappingURL=mgAdmin.css.map */

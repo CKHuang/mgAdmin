@@ -1,0 +1,131 @@
+//== padding
+.no-padding {
+	padding: 0!important;
+}
+.no-padding-h {
+	padding-right: 0!important;
+	padding-left: 0!important;
+}
+.no-padding-v {
+	padding-top: 0!important;
+	padding-bottom: 0!important;
+}
+.p-xs {
+	padding: $base-spacing-xs;
+}
+.p-sm {
+	padding: $base-spacing-sm;
+}
+.p-nm {
+	padding: $base-spacing;
+}
+.p-md {
+	padding: $base-spacing-md;
+}
+.p-lg {
+	padding: $base-spacing-lg;
+}
+
+.p-h {
+	padding-left: $base-spacing;
+	padding-right: $base-spacing;
+}
+
+.p-h-xs {
+	padding-left: $base-spacing-xs;
+	padding-right: $base-spacing-xs;
+}
+.p-h-sm {
+	padding-left: $base-spacing-sm;
+	padding-right: $base-spacing-sm;
+}
+
+.p-h-lg {
+	padding-left: $base-spacing-lg;
+	padding-right: $base-spacing-lg;
+}
+
+.p-v {
+	padding-top: $base-spacing;
+	padding-bottom: $base-spacing;
+}
+.p-v-xs {
+	padding-top: $base-spacing-xs;
+	padding-bottom: $base-spacing-xs;
+}
+.p-v-sm {
+	padding-top: $base-spacing-sm;
+	padding-bottom: $base-spacing-sm;
+}
+
+.p-v-lg {
+	padding-top: $base-spacing-lg;
+	padding-bottom: $base-spacing-lg;
+}
+
+
+
+//== margin
+.no-margin {
+	margin: 0!important;
+}
+.no-margin-h {
+	margin-right: 0!important;
+	margin-left: 0!important;
+}
+.no-margin-v {
+	margin-top: 0!important;
+	margin-bottom: 0!important;
+}
+.m-xs {
+	margin: $base-spacing-xs;
+}
+.m-sm {
+	margin: $base-spacing-sm;
+}
+.m-nm {
+	margin: $base-spacing;
+}
+.m-md {
+	margin: $base-spacing-md;
+}
+.m-lg {
+	margin: $base-spacing-lg;
+}
+
+.m-h {
+	margin-left: $base-spacing;
+	margin-right: $base-spacing;
+}
+
+.m-h-xs {
+	margin-left: $base-spacing-xs;
+	margin-right: $base-spacing-xs;
+}
+.m-h-sm {
+	margin-left: $base-spacing-sm;
+	margin-right: $base-spacing-sm;
+}
+
+.m-h-lg {
+	padding-left: $base-spacing-lg;
+	padding-right: $base-spacing-lg;
+}
+
+.m-v {
+	padding-top: $base-spacing;
+	padding-bottom: $base-spacing;
+}
+.m-v-xs {
+	padding-top: $base-spacing-xs;
+	padding-bottom: $base-spacing-xs;
+}
+.m-v-sm {
+	padding-top: $base-spacing-sm;
+	padding-bottom: $base-spacing-sm;
+}
+
+.m-v-lg {
+	padding-top: $base-spacing-lg;
+	padding-bottom: $base-spacing-lg;
+}
