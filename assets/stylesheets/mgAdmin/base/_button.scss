@@ -9,4 +9,124 @@
 	background-image: none;
 	@include user-select(none);
 	@include button-padding($base-button-spacing);
+	@include border-radius(2px);
+
+	&:hover {
+		color: $theme-light-color-base;
+	}
+
+	&:active {
+		@include box-shadow(inset 0 3px 5px rgba(0,0,0,0.125));
+	}
+
+	&.btn-default {
+		outline: 1px solid $base-button-default-border-color;
+		background-color: $base-button-default-background-color;
+		color: $base-button-default-text-color;
+		&:hover {
+			background-color: $base-button-default-hover-background;
+		}
+		&:active {
+			background-color: $base-button-default-hover-background;
+			
+		}
+	}
+
+	//== color
+	&.bg-primary {
+		&:hover {
+			background-color: $theme-primary-color-dark;
+		}
+		&:active {
+			background-color: $theme-primary-color-darker;
+		}
+	}
+
+	&.bg-info {
+		&:hover {
+			background-color: $theme-info-color-dark;
+		}
+		&:active {
+			background-color: $theme-info-color-darker;
+		}
+	}
+
+	&.bg-success {
+		&:hover {
+			background-color: $theme-success-color-dark;
+		}
+		&:active {
+			background-color: $theme-success-color-darker;
+		}
+	}
+
+	&.bg-warning {
+		&:hover {
+			background-color: $theme-warning-color-dark;
+		}
+		&:active {
+			background-color: $theme-warning-color-darker;
+		}
+	}
+
+	&.bg-danger {
+		&:hover {
+			background-color: $theme-danger-color-dark;
+		}
+		&:active {
+			background-color: $theme-danger-color-darker;
+		}
+	}
+
+	&.bg-dark {
+		&:hover {
+			background-color: $theme-dark-color-dark;
+		}
+		&:active {
+			background-color: $theme-dark-color-darker;
+		}
+	}
+
+	&.bg-black {
+		&:hover {
+			background-color: $theme-black-color-dark;
+		}
+		&:active {
+			background-color: $theme-black-color-darker;
+		}
+	}
+
+	&.bg-purple {
+		&:hover {
+			background-color: $theme-purple-color-dark;
+		}
+		&:active {
+			background-color: $theme-purple-color-darker;
+		}
+	}
+
+	&.bg-yellow {
+		&:hover {
+			background-color: $theme-yellow-color-dark;
+		}
+		&:active {
+			background-color: $theme-yellow-color-darker;
+		}
+	}
+
+
+
+	//size
+	&.btn-sm {
+		@include button-padding($base-spacing-btn-sm);
+		font-size: $font-size-small;
+	}
+	&.btn-md {
+		@include button-padding($base-spacing-sm);
+		font-size: $font-size-large;
+	}
+	&.btn-lg {
+		@include button-padding($base-spacing);
+		font-size: $font-size-h2;
+	}
 }

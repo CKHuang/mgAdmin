@@ -12,4 +12,19 @@
 	&.circle {
 		@include border-radius(120px);
 	}
+
+	&.label-sm {
+		padding: $base-spacing-btn-sm;
+		font-size: $font-size-small;
+	}
+
+	&.label-md {
+		padding: $base-spacing-sm;
+		font-size: $font-size-large;
+	}
+
+	&.label-lg {
+		padding: $base-spacing-sm;
+		font-size: $font-size-h2;
+	}
 }

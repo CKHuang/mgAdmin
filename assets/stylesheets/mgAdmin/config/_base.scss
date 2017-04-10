@@ -47,6 +47,7 @@ $screen-lg: 		1200px !default;
 $screen-lg-min: 	$screen-lg !default;
 
 //## spacing
+$base-spacing-btn-sm: 3px;
 $base-spacing-xs: 	5px;
 $base-spacing-sm: 	10px;
 $base-spacing: 		15px;
@@ -85,10 +86,15 @@ $base-nav-height: 		$nav-height;
 $base-navsub-height:    $nav-height - 2;
 
 //== label
-$base-label-padding: 3px;
+$base-label-padding: 5px;
 
 //== button
 $base-button-spacing: 6px;
+$base-button-default-border-color: #CECECE;
+$base-button-default-background-color: #fff;
+$base-button-default-text-color: $gray;
+$base-button-default-hover-background: $gray-lighter;
+$base-button-default-active-background: $gray-dark;
 
 //== layout
 //## app

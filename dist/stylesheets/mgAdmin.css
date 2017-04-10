@@ -209,10 +209,19 @@ th {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em;
-  padding: 3px; }
+  padding: 5px; }
   .label.circle {
     -webkit-border-radius: 120px;
     border-radius: 120px; }
+  .label.label-sm {
+    padding: 3px;
+    font-size: 12px; }
+  .label.label-md {
+    padding: 10px;
+    font-size: 18px; }
+  .label.label-lg {
+    padding: 10px;
+    font-size: 30px; }
 
 .btn, button {
   display: inline-block;
@@ -226,7 +235,67 @@ th {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding: 6px 12px; }
+  padding: 6px 12px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px; }
+  .btn:hover, button:hover {
+    color: #f1f2f3; }
+  .btn:active, button:active {
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+  .btn.btn-default, button.btn-default {
+    outline: 1px solid #CECECE;
+    background-color: #fff;
+    color: #555555; }
+    .btn.btn-default:hover, button.btn-default:hover {
+      background-color: #eeeeee; }
+    .btn.btn-default:active, button.btn-default:active {
+      background-color: #eeeeee; }
+  .btn.bg-primary:hover, button.bg-primary:hover {
+    background-color: #124ea2; }
+  .btn.bg-primary:active, button.bg-primary:active {
+    background-color: #10438c; }
+  .btn.bg-info:hover, button.bg-info:hover {
+    background-color: #1089b8; }
+  .btn.bg-info:active, button.bg-info:active {
+    background-color: #0e78a2; }
+  .btn.bg-success:hover, button.bg-success:hover {
+    background-color: #419e1e; }
+  .btn.bg-success:active, button.bg-success:active {
+    background-color: #398a1a; }
+  .btn.bg-warning:hover, button.bg-warning:hover {
+    background-color: #e67507; }
+  .btn.bg-warning:active, button.bg-warning:active {
+    background-color: #ce6906; }
+  .btn.bg-danger:hover, button.bg-danger:hover {
+    background-color: #c70f3c; }
+  .btn.bg-danger:active, button.bg-danger:active {
+    background-color: #b00d35; }
+  .btn.bg-dark:hover, button.bg-dark:hover {
+    background-color: #161d28; }
+  .btn.bg-dark:active, button.bg-dark:active {
+    background-color: #0d1118; }
+  .btn.bg-black:hover, button.bg-black:hover {
+    background-color: #1c1c26; }
+  .btn.bg-black:active, button.bg-black:active {
+    background-color: #121218; }
+  .btn.bg-purple:hover, button.bg-purple:hover {
+    background-color: #7027c9; }
+  .btn.bg-purple:active, button.bg-purple:active {
+    background-color: #6523b5; }
+  .btn.bg-yellow:hover, button.bg-yellow:hover {
+    background-color: #d7d702; }
+  .btn.bg-yellow:active, button.bg-yellow:active {
+    background-color: #bfbf02; }
+  .btn.btn-sm, button.btn-sm {
+    padding: 3px 6px;
+    font-size: 12px; }
+  .btn.btn-md, button.btn-md {
+    padding: 10px 20px;
+    font-size: 18px; }
+  .btn.btn-lg, button.btn-lg {
+    padding: 15px 30px;
+    font-size: 30px; }
 
 .navbar, .navbar-header {
   position: relative;
