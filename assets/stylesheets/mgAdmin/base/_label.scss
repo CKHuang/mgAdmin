@@ -1,0 +1,15 @@
+// == label
+.label {
+	display: inline-block;
+	font-size: 75%;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+	padding: $base-label-padding;
+
+	&.circle {
+		@include border-radius(120px);
+	}
+}

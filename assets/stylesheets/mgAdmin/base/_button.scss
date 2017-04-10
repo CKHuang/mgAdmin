@@ -1,0 +1,12 @@
+// default
+.btn, button {
+	display: inline-block;
+	line-height: $line-height-base;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	@include user-select(none);
+	@include button-padding($base-button-spacing);
+}

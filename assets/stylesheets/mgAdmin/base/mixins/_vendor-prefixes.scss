@@ -220,3 +220,10 @@
       -ms-user-select: $select; // IE10+
           user-select: $select;
 }
+
+
+// border
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+          border-radius: $radius;
+}
