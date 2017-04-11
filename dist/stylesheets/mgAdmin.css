@@ -310,6 +310,59 @@ th {
     box-shadow: none;
     opacity: .65; }
 
+.btn-group {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle; }
+  .btn-group > .btn:first-child {
+    margin-left: 0; }
+  .btn-group > .btn {
+    float: left;
+    -webkit-border-radius: 0px;
+    border-radius: 0px; }
+
+.btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .btn-group-vertical > .btn {
+    display: block;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+
+.btn-group > .btn.active, .btn-groun-veritical > .btn.active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  cursor: default; }
+.btn-group > .btn-default.active, .btn-groun-veritical > .btn-default.active {
+  background-color: #eeeeee; }
+.btn-group > .bg-primary.active, .btn-groun-veritical > .bg-primary.active {
+  background-color: #10438c; }
+.btn-group > .bg-info.active, .btn-groun-veritical > .bg-info.active {
+  background-color: #0e78a2; }
+.btn-group > .bg-success.active, .btn-groun-veritical > .bg-success.active {
+  background-color: #ce6906; }
+.btn-group > .bg-warning.active, .btn-groun-veritical > .bg-warning.active {
+  background-color: #ce6906; }
+.btn-group > .bg-danger.active, .btn-groun-veritical > .bg-danger.active {
+  background-color: #b00d35; }
+.btn-group > .bg-black.active, .btn-groun-veritical > .bg-black.active {
+  background-color: #121218; }
+.btn-group > .bg-dark.active, .btn-groun-veritical > .bg-dark.active {
+  background-color: #0d1118; }
+.btn-group > .bg-yellow.active, .btn-groun-veritical > .bg-yellow.active {
+  background-color: #0d1118; }
+.btn-group > .bg-purple.active, .btn-groun-veritical > .bg-purple.active {
+  background-color: #0d1118; }
+
 .navbar, .navbar-header {
   position: relative;
   min-height: 52px; }

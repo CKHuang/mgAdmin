@@ -2,4 +2,79 @@
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
+
+	&>.btn:first-child {
+		margin-left: 0;
+	}
+
+	&>.btn {
+		float: left;
+		@include border-radius(0px);
+	}
+}
+
+.btn-group-vertical {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	@include box-sizing(border-box);
+
+	&>.btn {
+		display: block;
+		float: none;
+		width: 100%;
+		max-width: 100%;
+		position: relative;
+		@include box-sizing(border-box);
+	}
+}
+
+.btn-group,.btn-groun-veritical {
+
+	&>.btn.active {
+		@include box-shadow(inset 0 3px 5px rgba(0,0,0,0.125));
+		cursor: default;
+	}
+
+	&>.btn-default.active {
+		background-color: $base-button-default-hover-background;
+	}
+
+
+	&>.bg-primary.active {
+		background-color: $theme-primary-color-darker;
+	}
+
+	&>.bg-info.active {
+		background-color: $theme-info-color-darker;
+	}
+
+
+	&>.bg-success.active {
+		background-color: $theme-warning-color-darker;
+	}
+
+	&>.bg-warning.active {
+		background-color: $theme-warning-color-darker;
+	}
+
+	&>.bg-danger.active {
+		background-color: $theme-danger-color-darker;
+	}
+
+	&>.bg-black.active {
+		background-color: $theme-black-color-darker;
+	}
+
+	&>.bg-dark.active {
+		background-color: $theme-dark-color-darker;
+	}
+
+	&>.bg-yellow.active {
+		background-color: $theme-dark-color-darker;
+	}
+
+	&>.bg-purple.active {
+		background-color: $theme-dark-color-darker;
+	}
 }
