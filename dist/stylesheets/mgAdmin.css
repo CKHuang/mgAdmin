@@ -243,6 +243,14 @@ th {
   .btn:active, button:active {
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+  .btn.btn-link, button.btn-link {
+    background-color: none;
+    color: #155abb; }
+    .btn.btn-link:hover, button.btn-link:hover {
+      text-decoration: underline; }
+    .btn.btn-link:active, button.btn-link:active {
+      -webkit-box-shadow: none;
+      box-shadow: none; }
   .btn.btn-default, button.btn-default {
     outline: 1px solid #CECECE;
     background-color: #fff;
@@ -296,6 +304,11 @@ th {
   .btn.btn-lg, button.btn-lg {
     padding: 15px 30px;
     font-size: 30px; }
+  .btn[disabled], button[disabled] {
+    cursor: not-allowed;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .65; }
 
 .navbar, .navbar-header {
   position: relative;

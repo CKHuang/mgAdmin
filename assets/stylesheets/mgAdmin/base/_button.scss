@@ -17,6 +17,19 @@
 
 	&:active {
 		@include box-shadow(inset 0 3px 5px rgba(0,0,0,0.125));
+
+	}
+
+	// type
+	&.btn-link {
+		background-color: none;
+		color: $theme-primary-color-base;
+		&:hover {
+			text-decoration: underline;
+		}
+		&:active {
+			@include box-shadow(none);
+		}
 	}
 
 	&.btn-default {
@@ -129,4 +142,14 @@
 		@include button-padding($base-spacing);
 		font-size: $font-size-h2;
 	}
+
+
+	// disable
+	&[disabled] {
+		cursor: not-allowed;
+		@include box-shadow(none);
+		opacity: .65;
+	}
+
+
 }
