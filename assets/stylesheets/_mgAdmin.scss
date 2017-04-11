@@ -21,6 +21,7 @@
 @import "mgAdmin/base/radio";
 @import "mgAdmin/base/checkbox";
 @import "mgAdmin/base/select";
+
 @import "mgAdmin/base/navbar";
 @import "mgAdmin/base/nav";
 
@@ -28,6 +29,9 @@
 @import "mgAdmin/base/color";
 @import "mgAdmin/base/space";
 @import "mgAdmin/base/text";
+
+// Component
+@import "mgAdmin/component/form";
 
 // layout
 @import "mgAdmin/layout/app";
