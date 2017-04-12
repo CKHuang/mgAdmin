@@ -2,6 +2,8 @@
  * mgAdmin v1.0.0
  * Copyright 2016-2017 Moggy, Inc
  */
+/*----------- base ---------------*/
+/*----------- layout ---------------*/
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table; }
@@ -310,58 +312,49 @@ th {
     box-shadow: none;
     opacity: .65; }
 
-.btn-group {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle; }
-  .btn-group > .btn:first-child {
-    margin-left: 0; }
-  .btn-group > .btn {
-    float: left;
-    -webkit-border-radius: 0px;
-    border-radius: 0px; }
-
-.btn-group-vertical {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-  .btn-group-vertical > .btn {
-    display: block;
-    float: none;
-    width: 100%;
-    max-width: 100%;
-    position: relative;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; }
-
-.btn-group > .btn.active, .btn-groun-veritical > .btn.active {
-  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  cursor: default; }
-.btn-group > .btn-default.active, .btn-groun-veritical > .btn-default.active {
-  background-color: #eeeeee; }
-.btn-group > .bg-primary.active, .btn-groun-veritical > .bg-primary.active {
-  background-color: #10438c; }
-.btn-group > .bg-info.active, .btn-groun-veritical > .bg-info.active {
-  background-color: #0e78a2; }
-.btn-group > .bg-success.active, .btn-groun-veritical > .bg-success.active {
-  background-color: #ce6906; }
-.btn-group > .bg-warning.active, .btn-groun-veritical > .bg-warning.active {
-  background-color: #ce6906; }
-.btn-group > .bg-danger.active, .btn-groun-veritical > .bg-danger.active {
-  background-color: #b00d35; }
-.btn-group > .bg-black.active, .btn-groun-veritical > .bg-black.active {
-  background-color: #121218; }
-.btn-group > .bg-dark.active, .btn-groun-veritical > .bg-dark.active {
-  background-color: #0d1118; }
-.btn-group > .bg-yellow.active, .btn-groun-veritical > .bg-yellow.active {
-  background-color: #0d1118; }
-.btn-group > .bg-purple.active, .btn-groun-veritical > .bg-purple.active {
-  background-color: #0d1118; }
+.alert {
+  padding: 15px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  position: relative; }
+  .alert > p,
+  .alert > ul {
+    margin: 0px; }
+  .alert > p + p {
+    margin-top: 5px; }
+  .alert .close {
+    position: absolute;
+    top: 12px;
+    right: 13px;
+    color: inherit;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer; }
+  .alert.bg-primary {
+    background-color: #ddeafb;
+    color: #10438c;
+    border: solid 1px #c1d8f8; }
+  .alert.bg-info {
+    background-color: #eff9fe;
+    color: #0e78a2;
+    border: solid 1px #d2f0fb; }
+  .alert.bg-warning {
+    background-color: #fee6cf;
+    color: #ce6906;
+    border: solid 1px #fcd2a8; }
+  .alert.bg-danger {
+    background-color: #fabbcb;
+    color: #b00d35;
+    border: solid 1px #f796ae; }
+  .alert.bg-success {
+    background-color: #ecfae6;
+    color: #398a1a;
+    border: solid 1px #d8f5cc; }
 
 .navbar, .navbar-header {
   position: relative;

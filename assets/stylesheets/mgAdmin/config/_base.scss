@@ -55,6 +55,7 @@ $base-spacing-md: 	20px;
 $base-spacing-lg:	30px;
 
 
+/*----------- base ---------------*/
 
 //== base Some global style
 //## font
@@ -96,6 +97,13 @@ $base-button-default-text-color: $gray;
 $base-button-default-hover-background: $gray-lighter;
 $base-button-default-active-background: $gray-dark;
 
+//## alert
+$base-alert-radius : 5px;
+
+
+
+
+/*----------- layout ---------------*/
 //== layout
 //## app
 $base-app-header-height: 		$navbar-height;

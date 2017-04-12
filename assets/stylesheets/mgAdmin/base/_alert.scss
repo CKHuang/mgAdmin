@@ -1,0 +1,59 @@
+.alert {
+	padding: $base-spacing;
+	border: 1px solid transparent;
+	@include border-radius($base-alert-radius);
+	position: relative;
+
+	> p,
+	> ul {
+		margin : 0px;
+	}
+
+	> p + p {
+		margin-top: 5px;
+	}
+
+	.close {
+		position: absolute;
+	    top: 12px;
+	    right: 13px;
+	    color: inherit;
+	    width: 20px;
+	    height: 20px;
+	    font-size: 16px;
+	    font-weight: bold;
+	    text-align: center;
+	    vertical-align: middle;
+	    cursor: pointer;
+	}
+
+	&.bg-primary {
+		background-color: lighten($theme-primary-color-lightest,8%);
+		color: $theme-primary-color-darker;
+		border: solid 1px lighten($theme-primary-color-lightest,2%);
+	}
+
+	&.bg-info {
+		background-color: lighten($theme-info-color-lightest,8%);
+		color: $theme-info-color-darker;
+		border: solid 1px lighten($theme-info-color-lightest,2%);
+	}
+
+	&.bg-warning {
+		background-color: lighten($theme-warning-color-lighter,8%);
+		color: $theme-warning-color-darker;
+		border: solid 1px lighten($theme-warning-color-light,20%);
+	}
+
+	&.bg-danger {
+		background-color: lighten($theme-danger-color-lighter,8%);
+		color: $theme-danger-color-darker;
+		border: solid 1px lighten($theme-danger-color-light,20%);
+	}
+
+	&.bg-success {
+		background-color: lighten($theme-success-color-lightest,8%);
+		color: $theme-success-color-darker;
+		border: solid 1px lighten($theme-success-color-lightest,2%);
+	}
+}
