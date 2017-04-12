@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>mgAdmin</title>
-	<link rel="stylesheet" type="text/css" href="../stylesheets/mgAdmin.css">
-	<script type="text/javascript" src="./menu.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../stylesheets/mgAdmin.css">
+	<script type="text/javascript" src="./../menu.js"></script>
 </head>
 <body>
 	
@@ -37,42 +37,22 @@
 			<div class="app-content-inner ">
 
 				<div class="app-content-title bg-light lter text-inverse">
-					<h3 class="text-dark">辅助<small class="m-l-sm">（helper）</small></h3>
+					<h3 class="text-dark">表单<small class="m-l-sm">（form）</small></h3>
 				</div>
 
 				<div class="app-content-article-fixed-scroll">
 					<div class="app-content-article">
 						<div class="p-nm">
 
-							<h5 class="m-b no-padding">显示&隐藏</h5>
-							<div class="example-box">
-								<p class="m-b-xs"><strong>show</strong> : 显示</p>
-								<p class="m-b-xs"><strong>show-inlineblock</strong> : 显示，display为inline-block</p>
-								<p class="m-b-xs"><strong>hide</strong> : 隐藏</p>
-								<p class="m-b-xs"><strong>invisible</strong> : 不可见</p>
-							</div>
-
-							<h5 class="m-b no-padding m-t-lg">清除浮动</h5>
-							<div class="example-box">
-								<p class="m-b-xs"><strong>clearfix</strong> : 清除浮动</p>
-							</div>
-
-							<h5 class="m-b no-padding m-t-lg">浮动</h5>
-							<div class="example-box">
-								<p class="m-b-xs"><strong>pull-left</strong> : 左浮动</p>
-								<p class="m-b-xs"><strong>pull-right</strong> : 右浮动</p>
-							</div>
-
-							<h5 class="m-b no-padding m-t-lg">内容居中</h5>
-							<div class="example-box">
-								<p class="m-b-xs"><strong>center-block</strong> : 需要额外给内容设置宽度</p>
-							</div>
-
-							<h5 class="m-b no-padding m-t-lg">关闭按钮</h5>
-							<div class="example-box">
-								<button type="button" class="close">
-									<span>×</span>
-								</button>
+							<h5 class="m-b no-padding">输入框</h5>
+							<div class="example-box clearfix">
+								<input type="text" class="form-control">
+								<input type="text" class="form-control rounded m-t">
+								<input type="password" class="form-control m-t">
+								<input placeholder="Placeholder" class="form-control m-t">
+								<input placeholder="Placeholder" class="form-control m-t">
+								<span class="help-block">这里是附加的提示帮助输入框</span>
+								<input value="disabled" class="form-control m-t" disabled="disabled">
 							</div>
 
 							<!-- <h5 class="m-b no-padding">颜色</h5>

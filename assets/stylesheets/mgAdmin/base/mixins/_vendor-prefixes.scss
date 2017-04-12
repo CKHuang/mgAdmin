@@ -227,3 +227,10 @@
   -webkit-border-radius: $radius;
           border-radius: $radius;
 }
+
+
+// box-shaow 
+@mixin box-shaow($boxshaow) {
+  -webkit-box-shaow: $boxshaow;
+          box-shaow: $boxshaow;
+}

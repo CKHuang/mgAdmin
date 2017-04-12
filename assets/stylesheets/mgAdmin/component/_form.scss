@@ -1,7 +1,41 @@
 
 //== form
-// .form-control {
-// 	display: block;
-// 	width: 100%;
-// 	height: 
-// }
+.form-control {
+	display: block;
+	width: 100%;
+	line-height: $line-height-base;
+	padding: $base-formcontrol-spacing $base-formcontrol-spacing + 6;
+	background-color: $base-formcontrol-bg;
+	border: $base-formcontrol-border;
+	@include box-shaow(inset 0 1px 1px rgba(0,0,0,0.075));
+	@include transition(border-color ease-in-out .15s,box-shadow ease-in-out .15s);
+	@include box-sizing(border-box);
+
+	&:focus {
+		@include box-shadow(none);
+		border-color: $base-formcontrol-border-focuscolor;
+		outline: 0;
+	}
+
+
+	// rounded
+	&.rounded {
+		@include border-radius(100px);
+	}
+
+
+	// disable
+	&[disabled] {
+		cursor: not-allowed;
+		background-color: $gray-lighter;
+		opacity: 1;
+		opacity: .6;
+	}
+}
+
+.help-block {
+	display: block;
+	margin-top: $base-spacing-xs;
+	font-size: $font-size-h6;
+	color: $gray-light;
+}
