@@ -21,6 +21,10 @@ var menuHtml = [
 				'<li>',
 					'<a href="./alert.html">告警（alert）</a>',
 				'</li>',
+
+				'<li>',
+					'<a href="./helper.html">辅助（helper）</a>',
+				'</li>',
 			'</ul>',
 		'</li>',
 		'<li>',

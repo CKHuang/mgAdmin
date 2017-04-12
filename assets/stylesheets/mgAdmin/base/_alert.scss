@@ -56,4 +56,30 @@
 		color: $theme-success-color-darker;
 		border: solid 1px lighten($theme-success-color-lightest,2%);
 	}
+
+
+	// size 
+	&.alert-xs {
+		padding: $base-spacing-sm;
+		font-size: $font-size-small;
+
+		.close {
+			top: 7px;
+		}
+	}
+	&.alert-sm {
+		padding: $base-spacing-sm;
+		font-size: $font-size-base;
+
+		.close {
+			top: 7px;
+		}
+	}
+	&.alert-lg {
+		padding: $base-spacing;
+		font-size: $font-size-large;
+		.close {
+			top: 15px;
+		}
+	}
 }

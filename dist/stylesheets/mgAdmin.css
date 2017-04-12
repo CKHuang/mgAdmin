@@ -355,6 +355,21 @@ th {
     background-color: #ecfae6;
     color: #398a1a;
     border: solid 1px #d8f5cc; }
+  .alert.alert-xs {
+    padding: 10px;
+    font-size: 12px; }
+    .alert.alert-xs .close {
+      top: 7px; }
+  .alert.alert-sm {
+    padding: 10px;
+    font-size: 14px; }
+    .alert.alert-sm .close {
+      top: 7px; }
+  .alert.alert-lg {
+    padding: 15px;
+    font-size: 18px; }
+    .alert.alert-lg .close {
+      top: 15px; }
 
 .navbar, .navbar-header {
   position: relative;
@@ -1074,6 +1089,58 @@ small,
 
 .text-h5 {
   font-size: 14px; }
+
+.show {
+  display: block !important; }
+
+.show-inlineblock {
+  display: inline-block !important; }
+
+.hide {
+  display: none !important; }
+
+.invisible {
+  visibility: hidden; }
+
+.pull-left {
+  float: left !important; }
+
+.pull-right {
+  float: right !important; }
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.close {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  opacity: .3;
+  text-shadow: 0 1px 0 #fff;
+  font-family: inherit;
+  line-height: 1; }
+  .close:hover {
+    opacity: .4;
+    color: #000;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0; }
+  .close:active {
+    opacity: .6;
+    color: #000;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    border: 0; }
+
+button.close {
+  -webkit-appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: 0 0;
+  border: 0; }
 
 html, body {
   width: 100%;
