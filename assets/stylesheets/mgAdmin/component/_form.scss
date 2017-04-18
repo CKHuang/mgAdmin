@@ -74,7 +74,10 @@
 		font-size: $font-size-large;
 		height: $base-formcontrol-height + 4;
 	}
+}
 
+textarea.form-control {
+	height: auto;
 }
 
 .input-group-addon, .input-group-btn, .input-group .form-control {

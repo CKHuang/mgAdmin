@@ -1256,6 +1256,9 @@ button.close {
     font-size: 18px;
     height: 38px; }
 
+textarea.form-control {
+  height: auto; }
+
 .input-group-addon, .input-group-btn, .input-group .form-control {
   display: table-cell; }
 
