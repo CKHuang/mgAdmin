@@ -4,6 +4,7 @@
 	display: block;
 	width: 100%;
 	line-height: $line-height-base;
+	height: $base-formcontrol-height;
 	padding: $base-formcontrol-spacing $base-formcontrol-spacing + 6;
 	background-color: $base-formcontrol-bg;
 	border: $base-formcontrol-border;
@@ -60,6 +61,7 @@
 	&.input-lg {
 		padding: $base-formcontrol-spacing + 2 $base-formcontrol-spacing + 8;
 		font-size: $font-size-large;
+		height: $base-formcontrol-height + 4;
 	}
 }
 
