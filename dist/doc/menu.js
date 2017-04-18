@@ -53,7 +53,7 @@ var menuHtml = [
 			'<a href="javascript:;">Layout</a>',
 			'<ul class="nav nav-sub">',
 				'<li>',
-					'<a href="../grid.html">栅格（grid）</a>',
+					'<a href="../layout/grid.html">栅格（grid）</a>',
 				'</li>',
 			'</ul>',
 		'</li>',
