@@ -56,6 +56,7 @@
 	&.input-sm {
 		padding: $base-formcontrol-spacing - 2 $base-formcontrol-spacing + 2;
 		font-size: $font-size-h6;
+		height: $base-formcontrol-height - 4;
 		line-height: 1;
 	}
 	&.input-lg {
@@ -63,6 +64,17 @@
 		font-size: $font-size-large;
 		height: $base-formcontrol-height + 4;
 	}
+	&.select-sm {
+		padding: $base-formcontrol-spacing - 2 $base-formcontrol-spacing + 2;
+		font-size: $font-size-h6;
+		line-height: 1;
+		height: $base-formcontrol-height - 4;
+	}
+	&.select-lg {
+		font-size: $font-size-large;
+		height: $base-formcontrol-height + 4;
+	}
+
 }
 
 .input-group-addon, .input-group-btn, .input-group .form-control {

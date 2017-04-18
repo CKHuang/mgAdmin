@@ -1241,9 +1241,18 @@ button.close {
   .form-control.input-sm {
     padding: 4px 8px;
     font-size: 12px;
+    height: 30px;
     line-height: 1; }
   .form-control.input-lg {
     padding: 8px 14px;
+    font-size: 18px;
+    height: 38px; }
+  .form-control.select-sm {
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1;
+    height: 30px; }
+  .form-control.select-lg {
     font-size: 18px;
     height: 38px; }
 
