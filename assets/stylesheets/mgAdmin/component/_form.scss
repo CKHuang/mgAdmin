@@ -141,6 +141,25 @@ textarea.form-control {
 }
 
 
+// checkbox, radio
+.checkbox,.radio {
+	position: relative;
+	display: block;
+}
+
+.checkbox label,.radio label{
+	padding-left: 20px;
+	margin-bottom: 0px;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.checkbox input[type="radio"],.radio input[type="radio"],
+.checkbox input[type="checkbox"],.radio input[type="checkbox"] {
+	position: absolute;
+	margin-left: -20px;
+}
+
 
 .help-block {
 	display: block;
