@@ -1305,7 +1305,8 @@ textarea.form-control {
 
 .checkbox, .radio {
   position: relative;
-  display: block; }
+  display: block;
+  padding-top: 7px; }
 
 .checkbox label, .radio label {
   padding-left: 20px;
@@ -1316,7 +1317,8 @@ textarea.form-control {
 .checkbox input[type="radio"], .radio input[type="radio"],
 .checkbox input[type="checkbox"], .radio input[type="checkbox"] {
   position: absolute;
-  margin-left: -20px; }
+  margin-left: -20px;
+  bottom: 3px; }
 
 .help-block {
   display: block;
