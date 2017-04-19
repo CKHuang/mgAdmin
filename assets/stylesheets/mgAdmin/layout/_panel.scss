@@ -1,5 +1,14 @@
 .panel {
 	background-color: $base-panel-bg;
 	@include box-shadow( 0 1px 1px rgba(0,0,0,0.05) );
-	outline: 1px solid transparent;
+	outline: $base-panel-border;
+
+	.panel-header {
+		padding: $base-spacing-sm $base-spacing;
+		border-bottom: $base-panel-header-border;
+	}
+
+	.panel-body {
+		padding: $base-spacing;
+	}
 }

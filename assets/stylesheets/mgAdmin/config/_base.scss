@@ -80,6 +80,7 @@ $base-headings-color: 			inherit !default;
 $base-headings-small-color: 	$gray-light !default;
 $base-headings-padding: 		15px;
 $base-text-muted: 				$gray-light !default;
+$base-text-muted-more: 			lighten($gray-base, 70.7%) !default;
 
 //== navbar
 $base-navbar-height : 	$navbar-height;
@@ -121,6 +122,8 @@ $base-app-title-height: 		55px !default;
 
 //## panel
 $base-panel-bg:		#fff;
+$base-panel-header-border: 	1px solid #f1f2f3;
+$base-panel-border: 	1px solid #e3e5e7;
 
 
 //== Grid system

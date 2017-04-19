@@ -1085,6 +1085,9 @@ small,
 .text-muted {
   color: #777777; }
 
+.text-muted-more {
+  color: #b4b4b4; }
+
 .text-dark {
   color: #333333; }
 
@@ -1167,6 +1170,9 @@ small,
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+.display-block {
+  display: block; }
 
 .close {
   font-size: 20px;
@@ -2108,6 +2114,11 @@ html, body {
   background-color: #fff;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  outline: 1px solid transparent; }
+  outline: 1px solid #e3e5e7; }
+  .panel .panel-header {
+    padding: 10px 15px;
+    border-bottom: 1px solid #f1f2f3; }
+  .panel .panel-body {
+    padding: 15px; }
 
 /*# sourceMappingURL=mgAdmin.css.map */
