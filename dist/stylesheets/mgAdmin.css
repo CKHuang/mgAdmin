@@ -1203,6 +1203,9 @@ button.close {
   background: 0 0;
   border: 0; }
 
+.form-group {
+  margin-bottom: 15px; }
+
 .form-control {
   display: block;
   width: 100%;
@@ -1309,6 +1312,10 @@ textarea.form-control {
     .input-group .input-group-addon:last-child {
       border-left: 0; }
 
+label {
+  display: inline-block;
+  margin-bottom: 5px; }
+
 .checkbox, .radio {
   position: relative;
   display: block;
@@ -1331,6 +1338,9 @@ textarea.form-control {
   margin-top: 5px;
   font-size: 12px;
   color: #777777; }
+
+.form-group:last-child {
+  margin-bottom: 0px; }
 
 html, body {
   width: 100%;
@@ -2120,5 +2130,18 @@ html, body {
     border-bottom: 1px solid #f1f2f3; }
   .panel .panel-body {
     padding: 15px; }
+    .panel .panel-body:before, .panel .panel-body:after {
+      content: " ";
+      display: table; }
+    .panel .panel-body:after {
+      clear: both; }
+  .panel .panel-footer {
+    padding: 10px 15px;
+    border-top: 1px solid #f1f2f3; }
+    .panel .panel-footer:before, .panel .panel-footer:after {
+      content: " ";
+      display: table; }
+    .panel .panel-footer:after {
+      clear: both; }
 
 /*# sourceMappingURL=mgAdmin.css.map */

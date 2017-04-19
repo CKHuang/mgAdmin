@@ -10,5 +10,12 @@
 
 	.panel-body {
 		padding: $base-spacing;
+		@include clearfix();
+	}
+
+	.panel-footer {
+		padding: $base-spacing-sm $base-spacing;
+		border-top: $base-panel-header-border;
+		@include clearfix();
 	}
 }

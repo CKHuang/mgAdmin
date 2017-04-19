@@ -1,5 +1,8 @@
 
 //== form
+.form-group {
+	margin-bottom: $base-spacing;
+}
 .form-control {
 	display: block;
 	width: 100%;
@@ -140,6 +143,12 @@ textarea.form-control {
 	}
 }
 
+// label
+label{
+	display: inline-block;
+	margin-bottom: $base-spacing-xs;
+}
+
 
 // checkbox, radio
 .checkbox,.radio {
@@ -168,4 +177,10 @@ textarea.form-control {
 	margin-top: $base-spacing-xs;
 	font-size: $font-size-h6;
 	color: $gray-light;
+}
+
+
+// 表单布局方式
+.form-group:last-child {
+	margin-bottom: 0px;
 }
