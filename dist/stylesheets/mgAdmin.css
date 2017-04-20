@@ -2166,5 +2166,7 @@ html, body {
       display: table; }
     .panel .panel-footer:after {
       clear: both; }
+  .panel.panel-default .panel-header, .panel.panel-default .panel-footer {
+    background-color: #fcfcfc; }
 
 /*# sourceMappingURL=mgAdmin.css.map */
