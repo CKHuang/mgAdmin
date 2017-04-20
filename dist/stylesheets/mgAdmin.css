@@ -1365,6 +1365,19 @@ label {
   width: auto;
   vertical-align: middle; }
 
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 15px; }
+  .table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #eeeff1;
+    padding: 6px 12px;
+    text-align: left; }
+  .table > tbody > tr > td {
+    padding: 6px 12px;
+    vertical-align: bottom; }
+
 html, body {
   width: 100%;
   height: 100%; }

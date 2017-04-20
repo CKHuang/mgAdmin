@@ -1,0 +1,17 @@
+.table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: $base-spacing;
+
+	&>thead>tr>th {
+		vertical-align: bottom;
+		border-bottom: 1px solid $base-table-border-color;
+		padding: $base-table-spacing $base-table-spacing * 2;
+		text-align: left;
+	}
+
+	&>tbody>tr>td {
+		padding: $base-table-spacing $base-table-spacing * 2;
+		vertical-align: bottom;
+	}
+}
