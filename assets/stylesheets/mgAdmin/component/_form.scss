@@ -205,5 +205,16 @@ label{
 
 // form-inline
 .form-inline {
-	
+
+	.form-group {
+		display: inline-block;
+		margin-bottom: 0px;
+		vertical-align: middle;
+	}
+
+	.form-control {
+		display: inline-block;
+		width: auto;
+		vertical-align: middle;
+	}
 }
