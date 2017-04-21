@@ -33,4 +33,63 @@
 			background-color: $base-table-td-bgcolor;
 		}
 	}
+
+	&.table-bordered {
+
+		&>tbody>tr>td,&>tbody>tr>th,&>tfoot>tr>th,&>tfoot>tr>td,&>thead>tr>th {
+			border: 1px solid $base-table-border-color;
+		}
+
+		&>thead>tr>th {
+			border-bottom: 2px solid darken($base-table-border-color,30%);
+		}
+	}
+
+	&.table-hover {
+		&>tbody>tr:hover {
+			background-color: darken($base-table-td-bgcolor,2%);
+		}
+	}
+}
+
+
+// tr background color 
+.table {
+
+	tr.primary>td {
+		background-color: $theme-primary-color-lightest;
+		color:$gray-darker;
+	}
+
+	tr.info>td {
+		background-color: $theme-info-color-lightest;
+		color:$gray-darker;
+	}
+
+	tr.success>td {
+		background-color: $theme-success-color-lightest;
+		color:$gray-darker;
+	}
+
+	tr.warning>td {
+		background-color: $theme-warning-color-lightest;
+		color:$gray-darker;
+	}
+
+	tr.danger>td {
+		background-color: $theme-danger-color-lightest;
+		color:$gray-darker;
+	}
+
+	tr.dark>td {
+		background-color: $theme-dark-color-lightest;
+		color:$gray-darker;
+	}
+
+	tr.black>td {
+		background-color: $theme-black-color-lightest;
+		color:$gray-darker;
+	}
+
+
 }

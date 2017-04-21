@@ -1385,6 +1385,34 @@ label {
 
 .table.table-striped > tbody > tr:nth-child(odd) > td {
   background-color: #fcfcfc; }
+.table.table-bordered > tbody > tr > td, .table.table-bordered > tbody > tr > th, .table.table-bordered > tfoot > tr > th, .table.table-bordered > tfoot > tr > td, .table.table-bordered > thead > tr > th {
+  border: 1px solid #eeeff1; }
+.table.table-bordered > thead > tr > th {
+  border-bottom: 2px solid #9aa0ac; }
+.table.table-hover > tbody > tr:hover {
+  background-color: #f7f7f7; }
+
+.table tr.primary > td {
+  background-color: #b8d2f7;
+  color: #222222; }
+.table tr.info > td {
+  background-color: #c9ecfa;
+  color: #222222; }
+.table tr.success > td {
+  background-color: #d1f4c3;
+  color: #222222; }
+.table tr.warning > td {
+  background-color: #fef4ea;
+  color: #222222; }
+.table tr.danger > td {
+  background-color: #fcd6df;
+  color: #222222; }
+.table tr.dark > td {
+  background-color: #8096b9;
+  color: #222222; }
+.table tr.black > td {
+  background-color: #9090ad;
+  color: #222222; }
 
 html, body {
   width: 100%;
