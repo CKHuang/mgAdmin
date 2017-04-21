@@ -1383,7 +1383,7 @@ label {
 .panel .table {
   margin-bottom: 0px; }
 
-.table .table-striped > tbody > tr:nth-child(odd) > td {
+.table.table-striped > tbody > tr:nth-child(odd) > td {
   background-color: #fcfcfc; }
 
 html, body {

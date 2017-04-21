@@ -27,7 +27,7 @@
 // color
 .table {
 
-	.table-striped {
+	&.table-striped {
 
 		&>tbody>tr:nth-child(odd)>td {
 			background-color: $base-table-td-bgcolor;
