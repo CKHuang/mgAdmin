@@ -5,13 +5,32 @@
 
 	&>thead>tr>th {
 		vertical-align: bottom;
-		border-bottom: 1px solid $base-table-border-color;
-		padding: $base-table-spacing $base-table-spacing * 2;
+		border-bottom: 2px solid darken($base-table-border-color,30%);
+		padding: $base-table-spacing * 2 $base-table-spacing ;
 		text-align: left;
 	}
 
 	&>tbody>tr>td {
-		padding: $base-table-spacing $base-table-spacing * 2;
+		padding: $base-table-spacing * 2 $base-table-spacing ;
 		vertical-align: bottom;
+		border-top: 1px solid $base-table-border-color;
+		color: $base-table-color;
+	}
+}
+
+// fixed
+.panel .table {
+	margin-bottom: 0px;
+}
+
+
+// color
+.table {
+
+	.table-striped {
+
+		&>tbody>tr:nth-child(odd)>td {
+			background-color: $base-table-td-bgcolor;
+		}
 	}
 }
