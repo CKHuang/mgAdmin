@@ -17,10 +17,19 @@
 		bottom: 0;
 		top: 0;
 		background-color: rgba(0,0,0,.6);
+
 	}
 
 	.modal-content {
 		max-width: $base-modal-maxwidth;
+		width: $base-modal-width;
+		position: relative;
+		background-color: $base-modal-bgcolor;
+		@include box-shadow(0 3px 9px rgba(0,0,0,0.5));
+		margin: 5% auto;
 
+		.modal-header {
+			padding:$base-spacing-sm  $base-spacing;
+		}
 	}
 }
