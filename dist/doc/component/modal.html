@@ -46,12 +46,15 @@
 
 							<h5 class="m-b no-padding m-t">普通表格</h5>
 							<div class="example-box">
-								<button type="button" class="btn btn-default">点击显示对话框</button>
+								<button type="button" onclick="document.getElementById('modal-default').style.display='block'" class="btn btn-default">点击显示对话框</button>
 
-								<div class="modal">
+								<div class="modal" id="modal-default">
 									<div class="modal-bg"></div>
 									<div class="modal-content">
-										<div class="modal-header"></div>
+										<div class="modal-header">
+											<span class="text-h4">模态对话框</span>
+											<small class="text-muted-more display-block">基础的模态对话框，使用的是默认的样式</small>
+										</div>
 										<div class="modal-body"></div>
 										<div class="modal-footer"></div>
 									</div>
