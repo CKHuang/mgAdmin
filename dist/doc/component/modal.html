@@ -54,9 +54,39 @@
 										<div class="modal-header">
 											<span class="text-h4">模态对话框</span>
 											<small class="text-muted-more display-block">基础的模态对话框，使用的是默认的样式</small>
+											<button type="button" class="close pull-right" onclick="document.getElementById('modal-default').style.display='none'">
+												<span>×</span>
+											</button>
 										</div>
-										<div class="modal-body"></div>
-										<div class="modal-footer"></div>
+										<div class="modal-body">
+											<form>
+												<div class="form-group">
+													<label>邮件地址</label>
+													<input class="form-control">
+												</div>
+												<div class="form-group">
+													<label>密码</label>
+													<input class="form-control" type="password">
+												</div>
+												<div class="form-group">
+													<label>是否默认登陆</label>
+													<div class="radio">
+														<label>
+															<input type="radio" name="isDefaultLogin" checked>是
+														</label>
+													</div>
+													<div class="radio">
+														<label>
+															<input type="radio" name="isDefaultLogin">否
+														</label>
+													</div>
+												</div>
+											</form>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default pull-right">取消</button>
+											<button type="button" class="btn btn bg-primary text-light pull-right m-r-sm">提交</button>
+										</div>
 									</div>
 								</div>
 							</div>

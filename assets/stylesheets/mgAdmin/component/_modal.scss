@@ -30,6 +30,30 @@
 
 		.modal-header {
 			padding:$base-spacing-sm  $base-spacing;
+			border-bottom: $base-modal-header-border;
+			background-color: $base-modal-header-header-bg;
 		}
+
+		.modal-body {
+			padding:  $base-spacing;
+		}
+
+		.modal-footer {
+			padding: $base-spacing-sm $base-spacing;
+			border-top: $base-modal-header-border;
+			background-color: $base-modal-header-header-bg;
+			@include clearfix();
+		}
+	}
+}
+
+
+//close button
+.modal-header {
+
+	.close {
+		position: absolute;
+		top: $base-spacing - 5;
+		right: $base-spacing;
 	}
 }
