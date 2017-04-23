@@ -44,7 +44,7 @@
 					<div class="app-content-article">
 						<div class="p-nm">
 
-							<h5 class="m-b no-padding m-t">普通表格</h5>
+							<h5 class="m-b no-padding m-t">普通对话框</h5>
 							<div class="example-box">
 								<button type="button" onclick="document.getElementById('modal-default').style.display='block'" class="btn btn-default">点击显示对话框</button>
 
@@ -86,6 +86,27 @@
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default pull-right">取消</button>
 											<button type="button" class="btn btn bg-primary text-light pull-right m-r-sm">提交</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<h5 class="m-b no-padding m-t">告警提示</h5>
+							<div class="example-box">
+								<button type="button" onclick="document.getElementById('modal-alert').style.display='block'" class="btn btn-default">点击显示告警提示框</button>
+
+								<div class="modal" id="modal-default">
+									<div class="modal-bg"></div>
+									<div class="modal-content">
+										<div class="modal-header">
+											<span class="text-h4">提示</span>
+											<button type="button" class="close pull-right" onclick="document.getElementById('modal-alert').style.display='none'">
+										</div>
+										<div class="modal-body">
+											<p>这里是告警提示，请注意！</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default pull-right">确定</button>
 										</div>
 									</div>
 								</div>
