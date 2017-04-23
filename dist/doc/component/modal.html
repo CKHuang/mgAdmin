@@ -95,18 +95,17 @@
 							<div class="example-box">
 								<button type="button" onclick="document.getElementById('modal-alert').style.display='block'" class="btn btn-default">点击显示告警提示框</button>
 
-								<div class="modal" id="modal-default">
+								<div class="modal modal-alert" id="modal-alert">
 									<div class="modal-bg"></div>
 									<div class="modal-content">
 										<div class="modal-header">
-											<span class="text-h4">提示</span>
-											<button type="button" class="close pull-right" onclick="document.getElementById('modal-alert').style.display='none'">
+											<span class="text-h5">提示</span>
 										</div>
 										<div class="modal-body">
 											<p>这里是告警提示，请注意！</p>
 										</div>
 										<div class="modal-footer">
-											<button type="button" class="btn btn-default pull-right">确定</button>
+											<button type="button" class="btn btn-sm btn-default pull-right" onclick="document.getElementById('modal-alert').style.display='none'">确定</button>
 										</div>
 									</div>
 								</div>
