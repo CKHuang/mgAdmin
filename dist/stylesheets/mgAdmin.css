@@ -1463,6 +1463,14 @@ label {
 
 .modal-alert .modal-content {
   width: 300px; }
+  .modal-alert .modal-content .modal-header {
+    background-color: #fff;
+    border-bottom: 0;
+    padding-bottom: 0; }
+  .modal-alert .modal-content .modal-footer {
+    padding-top: 0px;
+    background-color: #fff;
+    border-top: 0; }
 
 html, body {
   width: 100%;
