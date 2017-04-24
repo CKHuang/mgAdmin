@@ -88,5 +88,7 @@
 		padding: $base-spacing;
 		outline: 0;
 		@include border-radius(3px);
+		
+		text-align: center;
 	}
 }

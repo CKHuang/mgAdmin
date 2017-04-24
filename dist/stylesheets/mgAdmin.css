@@ -1478,7 +1478,8 @@ label {
   padding: 15px;
   outline: 0;
   -webkit-border-radius: 3px;
-  border-radius: 3px; }
+  border-radius: 3px;
+  text-align: center; }
 
 html, body {
   width: 100%;
