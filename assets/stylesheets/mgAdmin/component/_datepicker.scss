@@ -1,0 +1,120 @@
+.datepicker {
+
+    position: absolute;
+    padding: 4px;
+    @include border-radius(2px);
+    margin-top: 1px;
+    display: block;
+    background-color: $base-datepicker-bgcolor;
+    @include box-shadow(0 5px 10px rgba(0,0,0,0.2));
+    
+    .picker {
+        width: $base-datepicker-width;
+
+
+        .superior-switch {
+
+            position: relative;
+            @include clearfix();
+
+            .prev,.next,.switch {
+                text-align: center;
+            }
+
+           .prev,.next {
+              display: inline-block;
+              float: left;
+              width: 15%;
+              padding: $base-spacing-btn-sm 0px;
+              height: $base-datepicker-switch-height;
+              line-height:  $base-datepicker-switch-height;
+              @include border-radius(2px);
+              font-size: $font-size-large;
+
+              &:hover {
+                background-color: $base-datepicker-switch-hovercolor;
+              }
+           }
+
+          
+
+           .switch {
+            
+              @include border-radius(2px);
+               float: left;
+               width: 70%;
+               display: block;
+            //    font-size: $font-size-large;
+               padding: $base-spacing-btn-sm 0px;
+               height: $base-datepicker-switch-height;
+               line-height:  $base-datepicker-switch-height;
+               cursor: pointer;
+
+               &:hover {
+                   background-color: $base-datepicker-switch-hovercolor;
+               }
+               //text-align: center;
+           }
+        }
+
+
+        .sub-select {
+            margin-top: 5px;
+            @include clearfix();
+
+            .title-item,.option-item {
+                text-align: center;
+                padding: $base-spacing-xs 0px;
+            }
+
+            .title-item {
+                font-weight: bold;
+            }
+
+            .option-item {
+
+                color: $gray-dark;
+
+                &.unselect {
+                    cursor: not-allowed;
+                    color: #999;
+
+                    &:hover {
+                        background-color: none;
+                    }
+                }
+
+                &.selected {
+                    background-color: #ccc;
+                }
+            }
+
+            .option-item:hover {
+                @include border-radius(2px);
+                background-color: $base-datepicker-switch-hovercolor;
+            }
+
+
+
+            &.col-7 {
+
+                .title-item,.option-item {
+                    display: inline-block;
+                    float: left;
+                    width: 14.285%;  
+                }
+            }
+
+            &.col-4 {
+
+                .title-item,.option-item {
+                    display: inline-block;
+                    float: left;
+                    width: 25%;  
+                }
+            }
+        }
+
+       
+    }
+}

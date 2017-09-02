@@ -42,7 +42,7 @@ var menuHtml = [
 					'<a href="../component/pagination.html">分页（modal）</a>',
 				'</li>',
 				'<li>',
-					'<a href="../component/datetimepicker.html">时间选择（datetimepicker）</a>',
+					'<a href="../component/datepicker.html">日期选择（datepicker）</a>',
 				'</li>',
 				'<li>',
 					'<a href="../component/dropdown.html">滑层（dropdown）</a>',
